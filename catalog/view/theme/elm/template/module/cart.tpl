@@ -1,7 +1,7 @@
 <div id="cart">
     <div class="heading">
         <h4>
-            <?php echo $heading_title; ?>: <?php echo $text_items; ?> -
+            <?php echo $heading_title; ?>: <?php echo $text_items; ?> - <a class="cartCheckout" href="<?php echo $cart; ?>"></a>
         </h4>
     </div>
     <div class="content">
@@ -51,3 +51,39 @@
         <?php } ?>
     </div>
 </div>
+
+<script>
+$(function () {});
+    $('.add_to_cart').each(function(){
+        var _pa = $(this);
+        var _pid = _pa.attr('rel');
+        _pa.click(function () {
+            $.ajax({
+                type: 'post',
+                url: 'index.php?route=module/cart/callback',
+                dataType: 'html',
+                data: $('#product_'+_pid+' :input'),
+                success: function (html) {
+                    $('#module_cart .middle').html(html);
+                },
+                complete: function () {
+                    var image = $('#image_'+_pid).offset();
+                    var cart  = $('#module_cart').offset();
+
+                    $('#image_'+_pid).before('<img src="' + $('#image_'+_pid).attr('src') + '" id="temp_'+_pid+'" style="position: absolute; top: ' + image.top + 'px; left: ' + image.left + 'px;" />');
+
+                    params = {
+                        top : cart.top + 'px',
+                        left : cart.left + 'px',
+                        opacity : 0.0,
+                        width : $('#module_cart').width(),
+                        heigth : $('#module_cart').height()
+                    };
+                    $('#temp_'+_pid).animate(params, 'slow', false, function () {
+                        $('#temp_'+_pid).remove();
+                    });
+                }
+            });
+        });
+    });
+</script>

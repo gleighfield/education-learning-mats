@@ -193,6 +193,7 @@ class ControllerProductCategory extends Controller {
 			
 			$data = array(
 				'filter_category_id' => $category_id,
+                'filter_sub_category' => true,
 				'filter_filter'      => $filter, 
 				'sort'               => $sort,
 				'order'              => $order,
@@ -234,8 +235,14 @@ class ControllerProductCategory extends Controller {
 				} else {
 					$rating = false;
 				}
+
+                //Custom addition to support multiple add to carts on cat view
+                $options = $this->model_catalog_product->getProductOptions($result['product_id']);
+
+                //$options = $options['option_value']['name'];
 								
 				$this->data['products'][] = array(
+                    'options'     => $options,
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
 					'name'        => $result['name'],
@@ -377,6 +384,9 @@ class ControllerProductCategory extends Controller {
 			$this->data['limit'] = $limit;
 		
 			$this->data['continue'] = $this->url->link('common/home');
+
+            //Custom addition to support multiple add to cart options on cat view
+            $this->data['action'] = HTTP_SERVER . 'index.php?route=checkout/cart';
 
 			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/category.tpl')) {
 				$this->template = $this->config->get('config_template') . '/template/product/category.tpl';

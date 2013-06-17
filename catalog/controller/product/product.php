@@ -347,6 +347,17 @@ class ControllerProductProduct extends Controller {
 					$option_value_data = array();
 					
 					foreach ($option['option_value'] as $option_value) {
+
+                        //Show full price with option
+                        if ($option_value['price_prefix'] == '-') {
+                            $option_value['price'] = (($product_info['special'] ? ($product_info['special'] - $option_value['price']) : $product_info['price']) - $option_value['price']);
+                        }
+                        else {
+                            $option_value['price'] = (($product_info['special'] ? ($product_info['special'] + $option_value['price']) : $product_info['price']) + $option_value['price']);
+                        }
+
+                        $option_value['price_prefix'] = '';
+
 						if (!$option_value['subtract'] || ($option_value['quantity'] > 0)) {
 							if ((($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) && (float)$option_value['price']) {
 								$price = $this->currency->format($this->tax->calculate($option_value['price'], $product_info['tax_class_id'], $this->config->get('config_tax')));

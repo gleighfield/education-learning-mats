@@ -5,10 +5,15 @@
     <ignored path="education-learning-mats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371453322894" ignored="false" />
-    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371471096750" ignored="false" />
+    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371500559864" ignored="false" />
     <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371470858986" ignored="false" />
-    <file path="/cart.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371462467432" ignored="false" />
-    <file path="/footer.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371470168496" ignored="false" />
+    <file path="/cart.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371485042380" ignored="false" />
+    <file path="/footer.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371473227100" ignored="false" />
+    <file path="/a.dummy" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371482828349" ignored="false" />
+    <file path="/category.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371492710473" ignored="false" />
+    <file path="/category.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371492347119" ignored="false" />
+    <file path="/product.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371498259623" ignored="false" />
+    <file path="$PROJECT_DIR$/../Duxter-Core/admin/applications_addon/other/portal_coc_kb/modules_public/resources/dark_elixir_storage.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371498186626" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,55 +36,34 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="432" column="21" selection-start="7981" selection-end="7981" vertical-scroll-proportion="0.7846154">
+            <state line="1241" column="11" selection-start="22884" selection-end="22884" vertical-scroll-proportion="0.5944056">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
+      <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="34" selection-start="5272" selection-end="5272" vertical-scroll-proportion="-21.576923">
-              <folding>
-                <marker date="1371470859339" expanded="true" signature="1794:1836" placeholder="..." />
-                <marker date="1371470859339" expanded="true" signature="2043:2057" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="113" selection-start="2534" selection-end="2534" vertical-scroll-proportion="-20.923077">
+            <state line="310" column="18" selection-start="11553" selection-end="11553" vertical-scroll-proportion="37.588234">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl">
+      <file leaf-file-name="category.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="98" selection-start="1296" selection-end="1345" vertical-scroll-proportion="-15.038462">
+            <state line="187" column="120" selection-start="6363" selection-end="6363" vertical-scroll-proportion="9.843137">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/english/common/header.php">
+      <file leaf-file-name="category.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/english/module/cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.2692308">
+            <state line="91" column="16" selection-start="3735" selection-end="3735" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -104,10 +88,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/catalog/language/english/module/cart.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/english/common/header.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/cart.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css" />
       </list>
     </option>
@@ -206,38 +196,8 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,10 +230,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,10 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="elm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,32 +308,6 @@
               <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -412,6 +338,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,8 +391,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="ELM @ TOGETHIA" serverId="325874cf-042d-41cc-9848-a9d21a768e3f" autoUpload="true">
     <servers>
@@ -470,6 +436,9 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -508,7 +477,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.85491073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1814301" sideWeight="0.85491073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -517,7 +486,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3794643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -584,76 +553,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/content_top.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="10" selection-start="74" selection-end="74" vertical-scroll-proportion="0.061930783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="54" selection-start="1853" selection-end="1853" vertical-scroll-proportion="-4.2817163">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/welcome.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/compare.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/store.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="79" column="40" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.36450383" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/special.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/stylesheet/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1773913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/english/module/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/english/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
+        <state line="50" column="6" selection-start="2942" selection-end="2942" vertical-scroll-proportion="0.9365672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="98" selection-start="1296" selection-end="1345" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="113" selection-start="2534" selection-end="2534" vertical-scroll-proportion="-20.923077">
+        <state line="3" column="124" selection-start="179" selection-end="179" vertical-scroll-proportion="-0.14550643">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="34" selection-start="5272" selection-end="5272" vertical-scroll-proportion="-21.576923">
+        <state line="73" column="33" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/catalog/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="371" column="13" selection-start="11984" selection-end="11984" vertical-scroll-proportion="0.31383738" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="50" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.5714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/english/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11175617">
           <folding>
-            <marker date="1371470859339" expanded="true" signature="1794:1836" placeholder="..." />
-            <marker date="1371470859339" expanded="true" signature="2043:2057" placeholder="..." />
+            <marker date="1367097440000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/english/product/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="22" selection-start="10611" selection-end="10611" vertical-scroll-proportion="0.46077034">
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1371498259353" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1371498259353" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="310" column="18" selection-start="11553" selection-end="11553" vertical-scroll-proportion="37.588234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="120" selection-start="6363" selection-end="6363" vertical-scroll-proportion="9.843137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="16" selection-start="3735" selection-end="3735" vertical-scroll-proportion="-12.423077">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="432" column="21" selection-start="7981" selection-end="7981" vertical-scroll-proportion="0.7846154">
+        <state line="1241" column="11" selection-start="22884" selection-end="22884" vertical-scroll-proportion="0.5944056">
           <folding />
         </state>
       </provider>

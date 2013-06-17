@@ -32,15 +32,25 @@
         <?php } ?>
         <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
       <?php if ($price) { ?>
-      <div class="price"><?php echo $text_price; ?>
+      <div class="price">
+
+        <div class="diffPrices">
+            <?php foreach($options as $option) { ?>
+            <?php if ($option['type'] == 'select') { ?>
+
+                    <?php foreach ($option['option_value'] as $option_value) { ?>
+                        <span><?php echo $option_value['name']; ?>: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?></span>
+                    <?php } ?>
+            <?php } ?>
+            <?php } ?>
+        </div>
+
         <?php if (!$special) { ?>
-        <?php echo $price; ?>
         <?php } else { ?>
         <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
         <?php } ?>
-        <br />
         <?php if ($tax) { ?>
-        <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
+
         <?php } ?>
         <?php if ($points) { ?>
         <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
@@ -57,17 +67,14 @@
       <?php } ?>
       <?php if ($options) { ?>
       <div class="options">
-        <h2><?php echo $text_option; ?></h2>
         <br />
         <?php foreach ($options as $option) { ?>
         <?php if ($option['type'] == 'select') { ?>
         <div id="option-<?php echo $option['product_option_id']; ?>" class="option">
           <?php if ($option['required']) { ?>
-          <span class="required">*</span>
           <?php } ?>
-          <b><?php echo $option['name']; ?>:</b><br />
           <select name="option[<?php echo $option['product_option_id']; ?>]">
-            <option value=""><?php echo $text_select; ?></option>
+            <option value="">Please select mat size</option>
             <?php foreach ($option['option_value'] as $option_value) { ?>
             <option value="<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
             <?php if ($option_value['price']) { ?>
@@ -202,14 +209,17 @@
       </div>
       <?php } ?>
       <div class="cart">
-        <div><?php echo $text_qty; ?>
-          <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
-          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
-          &nbsp;
-          <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
-          <span>&nbsp;&nbsp;<?php echo $text_or; ?>&nbsp;&nbsp;</span>
-          <span class="links"><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a><br />
-            <a onclick="addToCompare('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a></span>
+          <div class="qty">
+              Quantity:
+              <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
+          </div>
+        <div>
+          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" /><br>
+          <span class="addToCart" id="button-cart" class="button" />Add to basket</span>
+          <div class="checkout">
+            <a href="#">Checkout</a>
+          </div>
+          <span class="links"><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a></span>
         </div>
         <?php if ($minimum > 1) { ?>
         <div class="minimum"><?php echo $text_minimum; ?></div>
@@ -226,74 +236,15 @@
       </div>
       <?php } ?>
     </div>
-  </div>
-  <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
-    <?php if ($attribute_groups) { ?>
-    <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
-    <?php } ?>
-    <?php if ($review_status) { ?>
-    <a href="#tab-review"><?php echo $tab_review; ?></a>
-    <?php } ?>
-    <?php if ($products) { ?>
-    <a href="#tab-related"><?php echo $tab_related; ?> (<?php echo count($products); ?>)</a>
-    <?php } ?>
-  </div>
-  <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
-  <?php if ($attribute_groups) { ?>
-  <div id="tab-attribute" class="tab-content">
-    <table class="attribute">
-      <?php foreach ($attribute_groups as $attribute_group) { ?>
-      <thead>
-        <tr>
-          <td colspan="2"><?php echo $attribute_group['name']; ?></td>
-        </tr>
-      </thead>
-      <tbody>
-        <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
-        <tr>
-          <td><?php echo $attribute['name']; ?></td>
-          <td><?php echo $attribute['text']; ?></td>
-        </tr>
-        <?php } ?>
-      </tbody>
-      <?php } ?>
-    </table>
-  </div>
-  <?php } ?>
-  <?php if ($review_status) { ?>
-  <div id="tab-review" class="tab-content">
-    <div id="review"></div>
-    <h2 id="review-title"><?php echo $text_write; ?></h2>
-    <b><?php echo $entry_name; ?></b><br />
-    <input type="text" name="name" value="" />
-    <br />
-    <br />
-    <b><?php echo $entry_review; ?></b>
-    <textarea name="text" cols="40" rows="8" style="width: 98%;"></textarea>
-    <span style="font-size: 11px;"><?php echo $text_note; ?></span><br />
-    <br />
-    <b><?php echo $entry_rating; ?></b> <span><?php echo $entry_bad; ?></span>&nbsp;
-    <input type="radio" name="rating" value="1" />
-    &nbsp;
-    <input type="radio" name="rating" value="2" />
-    &nbsp;
-    <input type="radio" name="rating" value="3" />
-    &nbsp;
-    <input type="radio" name="rating" value="4" />
-    &nbsp;
-    <input type="radio" name="rating" value="5" />
-    &nbsp;<span><?php echo $entry_good; ?></span><br />
-    <br />
-    <b><?php echo $entry_captcha; ?></b><br />
-    <input type="text" name="captcha" value="" />
-    <br />
-    <img src="index.php?route=product/product/captcha" alt="" id="captcha" /><br />
-    <br />
-    <div class="buttons">
-      <div class="right"><a id="button-review" class="button"><?php echo $button_continue; ?></a></div>
+    <div class="productDescription">
+        <h2>Product Details</h2>
+        <?php echo $description; ?>
     </div>
   </div>
-  <?php } ?>
+
+
+
+
   <?php if ($products) { ?>
   <div id="tab-related" class="tab-content">
     <div class="box-product">
