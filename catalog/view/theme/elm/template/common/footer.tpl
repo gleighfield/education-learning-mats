@@ -1,3 +1,4 @@
+<!--
 <div id="footer">
   <?php if ($informations) { ?>
   <div class="column">
@@ -36,14 +37,26 @@
     </ul>
   </div>
 </div>
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
 //-->
-<div id="powered"><?php echo $powered; ?></div>
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-</div>
-</body></html>
+        <div id="footer">
+            <ul class="bottomLinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Trade Enquires</a></li>
+                <li><a href="#">Questions&Answers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Wish List</a></li>
+                <li><a href="#">Delivery&Returns</a></li>
+                <li><a href="#">Terms&Conditions</a></li>
+            </ul>
+            <div class="paymentOptions"></div>
+            <p class="right green">Designed by teachers & made in the UK. Follow us
+                <a href="#"><img src="catalog/view/theme/elm/img/footerFacebook.jpg" width="18" height="18"/></a>
+                <a href="#"><img src="catalog/view/theme/elm/img/footerLinkedIn.jpg" width="18" height="18"/></a>
+            </p>
+            <p class="right">&copy; Education Learning Mats & Lucy Moore 2013. Web design by MikeGarlick & GEL Studios</p>
+        </div>
+    </body>
+</html>

@@ -14,6 +14,8 @@
 .brown {color:#a76b33}
 .blue {color:#55b0d7}
 .green {color:#8fa34f}
+.right {text-align:right;}
+.center {text-align:center;}
 
 html {
 	overflow-y: scroll;
@@ -355,20 +357,11 @@ label {
     margin-right:35px;
 }
 
-.orange {color:#ee7024}
-.brown {color:#a76b33}
-.blue {color:#55b0d7}
-.green {color:#8fa34f}
-
 #menu > ul > li:nth-child(1) a {color:#ee7024;}
 #menu > ul > li:nth-child(2) a {color:#a76b33;}
 #menu > ul > li:nth-child(3) a {color:#55b0d7;}
 #menu > ul > li:nth-child(4) a {color:#8fa34f;}
-
-
-#menu > ul > li:last-child {
-    margin-right:0;
-}
+#menu > ul > li:last-child {margin-right:0;}
 
 #menu > ul > li:before {
     content:'';
@@ -498,6 +491,51 @@ label {
     font-size:18px;
     text-decoration:none;
     color:#fff;
+}
+
+/*Bottom links*/
+#footer {
+    font-family:'elm';
+}
+
+#footer p {
+    margin:0 0 5px;
+    font-size:12px;
+}
+
+#footer .bottomLinks {
+    text-align:center;
+    font-family:'elm';
+    margin:0 0 20px !important;
+}
+
+#footer .paymentOptions {
+    background:url(../img/paymentOptions.jpg) top left no-repeat;
+    margin-top:10px;
+    width:222px;
+    height:29px;
+    display:block;
+    float:left;
+}
+
+#footer .bottomLinks {
+    padding:0;
+    margin:0;
+}
+
+#footer .bottomLinks li {
+    display:inline-block;
+    padding:0 4px;
+}
+
+#footer .bottomLinks li a {
+    text-decoration:none;
+    color:#4d9ba6;
+}
+
+#footer p a img {
+    position:relative;
+    top:5px;
 }
 
 .breadcrumb {
@@ -1698,11 +1736,7 @@ ul.box-filter > li ul {
 #footer {
 	clear: both;
 	overflow: auto;
-	min-height: 100px;
-	padding: 20px;
-	border-top: 1px solid #DBDEE1;
-	border-bottom: 1px solid #DBDEE1;
-	background: #F8F8F8;
+	padding: 0;
 }
 #footer h3 {
 	color: #000000;

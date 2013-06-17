@@ -5,9 +5,10 @@
     <ignored path="education-learning-mats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371453322894" ignored="false" />
-    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371468510689" ignored="false" />
+    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371470260291" ignored="false" />
     <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371467509530" ignored="false" />
     <file path="/cart.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371462467432" ignored="false" />
+    <file path="/footer.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371470168496" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="440" column="18" selection-start="7981" selection-end="7981" vertical-scroll-proportion="0.43188405">
+            <state line="513" column="17" selection-start="9497" selection-end="9497" vertical-scroll-proportion="0.38260868">
               <folding />
             </state>
           </provider>
@@ -39,11 +40,20 @@
       <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="16" selection-start="4124" selection-end="4124" vertical-scroll-proportion="-12.423077">
+            <state line="74" column="18" selection-start="3306" selection-end="3306" vertical-scroll-proportion="-23.538462">
               <folding>
-                <marker date="1371467514005" expanded="true" signature="1794:1836" placeholder="..." />
-                <marker date="1371467514005" expanded="true" signature="2043:2057" placeholder="..." />
+                <marker date="1371470170754" expanded="true" signature="1794:1836" placeholder="..." />
+                <marker date="1371470170754" expanded="true" signature="2043:2057" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="113" selection-start="2534" selection-end="2534" vertical-scroll-proportion="-20.923077">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +61,7 @@
       <file leaf-file-name="cart.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.576923">
+            <state line="23" column="98" selection-start="1296" selection-end="1345" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
@@ -97,6 +107,7 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/english/common/header.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css" />
       </list>
     </option>
@@ -489,7 +500,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14508928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -497,7 +508,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.85491073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.85491073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -616,26 +627,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="18" selection-start="3306" selection-end="3306" vertical-scroll-proportion="-23.538462">
+          <folding>
+            <marker date="1371470170754" expanded="true" signature="1794:1836" placeholder="..." />
+            <marker date="1371470170754" expanded="true" signature="2043:2057" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.576923">
+        <state line="23" column="98" selection-start="1296" selection-end="1345" vertical-scroll-proportion="-15.038462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="16" selection-start="4124" selection-end="4124" vertical-scroll-proportion="-12.423077">
-          <folding>
-            <marker date="1371467514005" expanded="true" signature="1794:1836" placeholder="..." />
-            <marker date="1371467514005" expanded="true" signature="2043:2057" placeholder="..." />
-          </folding>
+        <state line="56" column="113" selection-start="2534" selection-end="2534" vertical-scroll-proportion="-20.923077">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="440" column="18" selection-start="7981" selection-end="7981" vertical-scroll-proportion="0.43188405">
+        <state line="513" column="17" selection-start="9497" selection-end="9497" vertical-scroll-proportion="0.38260868">
           <folding />
         </state>
       </provider>
