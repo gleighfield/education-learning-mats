@@ -73,14 +73,9 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 </div>
                 <a class="login">Login</a>
             </div>
-
-
-
-
-
-
          </div>
-<?php if ($categories) { ?>
+<?php
+        if ($categories) { ?>
         <div id="topSubMenu">
             <ul>
                 <li>
@@ -104,6 +99,13 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
             </ul>
 
         </div>
+<?php
+    $homepage = "/store/";
+    $currentpage = $_SERVER['REQUEST_URI'];
+    if($homepage==$currentpage) {
+
+?>
+
         <h1 class="headerTitle">Write On, Wipe Clean Learning Mats</h1>
         <div id="menu">
             <ul>
@@ -130,5 +132,11 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
     <?php } ?>
             </ul>
         </div>
-<?php } ?>
+
+
+<?php } else { ?>
+        <div id="paperClipSpacer"></div>
+<?php }
+}
+?>
         <div id="notification"></div>

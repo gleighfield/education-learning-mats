@@ -425,6 +425,15 @@ label {
 	color: #FFFFFF;
 }
 
+#paperClipSpacer {
+    background:url(../img/paperclipSpacer.jpg) top left no-repeat;
+    display:block;
+    width:100%;
+    height:48px;
+    margin-top:-10px;
+    margin-bottom:20px;
+}
+
 /*topsubmenu */
 
 #topSubMenu {
