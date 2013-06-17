@@ -1,6 +1,7 @@
 config.php
 admin/config.php
-
+.idea/
+.idea/*
 !index.html
 
 download
