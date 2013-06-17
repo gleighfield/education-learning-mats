@@ -49,49 +49,86 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <?php echo $google_analytics; ?>
 </head>
 <body>
-<div id="container">
-<div id="header">
-  <?php if ($logo) { ?>
-  <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
-  <?php } ?>
-  <?php echo $language; ?>
-  <?php echo $currency; ?>
-  <?php echo $cart; ?>
-  <div id="search">
-    <div class="button-search"></div>
-    <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
-  </div>
-  <div id="welcome">
-    <?php if (!$logged) { ?>
-    <?php echo $text_welcome; ?>
-    <?php } else { ?>
-    <?php echo $text_logged; ?>
-    <?php } ?>
-  </div>
-  <div class="links"><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></div>
-</div>
+    <div id="container">
+        <div id="header">
+        <?php if ($logo) { ?>
+            <div id="logo">
+                <a href="<?php echo $home; ?>">
+                    <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" />
+                </a>
+            </div>
+        <?php } ?>
+
+            <div id="searchandbasket">
+                <div id="search">
+                    <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
+                </div>
+                <?php echo $cart; ?>
+                <div class="links">
+                    <a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
+                    <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
+                    <a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
+                    <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
+                    <a href="#">Create Account</a>
+                </div>
+                <a class="login">Login</a>
+            </div>
+
+
+
+
+
+
+         </div>
 <?php if ($categories) { ?>
-<div id="menu">
-  <ul>
+        <div id="topSubMenu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Our Products</a>
+                </li>
+                <li>
+                    <a href="#">Trade Enquiries & Schools</a>
+                </li>
+                <li>
+                    <span>01793 888888</span>
+                </li>
+                <li>
+                    <a href="mailto:info@elmats.com">info@elmats.com</a>
+                </li>
+            </ul>
+
+        </div>
+        <h1 class="headerTitle">Write On, Wipe Clean Learning Mats</h1>
+        <div id="menu">
+            <ul>
     <?php foreach ($categories as $category) { ?>
-    <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+                <li>
+                        <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
       <?php if ($category['children']) { ?>
-      <div>
+                        <div>
         <?php for ($i = 0; $i < count($category['children']);) { ?>
-        <ul>
+                            <ul>
           <?php $j = $i + ceil(count($category['children']) / $category['column']); ?>
           <?php for (; $i < $j; $i++) { ?>
           <?php if (isset($category['children'][$i])) { ?>
-          <li><a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a></li>
+                                <li>
+                                    <a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a>
+                                </li>
           <?php } ?>
           <?php } ?>
-        </ul>
+                            </ul>
         <?php } ?>
-      </div>
+                        </div>
       <?php } ?>
-    </li>
+                </li>
     <?php } ?>
-  </ul>
-</div>
+            </ul>
+        </div>
 <?php } ?>
-<div id="notification"></div>
+        <div id="notification"></div>
