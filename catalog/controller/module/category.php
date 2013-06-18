@@ -48,19 +48,25 @@ class ControllerModuleCategory extends Controller {
 
 				$total += $product_total;
 
-				$children_data[] = array(
-					'category_id' => $child['category_id'],
-					'name'        => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $product_total . ')' : ''),
-					'href'        => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])	
-				);		
+                //Hide empty subcats
+                if ($product_total != 0) {
+                    $children_data[] = array(
+                        'category_id' => $child['category_id'],
+                        'name'        => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $product_total . ')' : ''),
+                        'href'        => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
+                    );
+                }
 			}
 
-			$this->data['categories'][] = array(
-				'category_id' => $category['category_id'],
-				'name'        => $category['name'] . ($this->config->get('config_product_count') ? ' (' . $total . ')' : ''),
-				'children'    => $children_data,
-				'href'        => $this->url->link('product/category', 'path=' . $category['category_id'])
-			);	
+            //Hide empty parent categories
+            if ($total != 0) {
+                $this->data['categories'][] = array(
+                    'category_id' => $category['category_id'],
+                    'name'        => $category['name'] . ($this->config->get('config_product_count') ? ' (' . $total . ')' : ''),
+                    'children'    => $children_data,
+                    'href'        => $this->url->link('product/category', 'path=' . $category['category_id'])
+                );
+            }
 		}
 		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/category.tpl')) {

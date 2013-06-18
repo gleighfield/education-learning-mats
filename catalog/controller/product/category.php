@@ -238,11 +238,11 @@ class ControllerProductCategory extends Controller {
 
                 //Custom addition to support multiple add to carts on cat view
                 $options = $this->model_catalog_product->getProductOptions($result['product_id']);
-
-                //$options = $options['option_value']['name'];
+                $attributes = $this->model_catalog_product->getProductAttributes($result['product_id']);
 								
 				$this->data['products'][] = array(
                     'options'     => $options,
+                    'attribute'   => $attributes,
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
 					'name'        => $result['name'],
@@ -252,7 +252,7 @@ class ControllerProductCategory extends Controller {
 					'tax'         => $tax,
 					'rating'      => $result['rating'],
 					'reviews'     => sprintf($this->language->get('text_reviews'), (int)$result['reviews']),
-					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
+					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
 				);
 			}
 			

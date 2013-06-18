@@ -1,4 +1,10 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+<?php echo $header;
+
+    $catType = 'catContainer cat_' .$heading_title;
+
+?>
+<?php echo $column_left; ?>
+<?php echo $column_right; ?>
 <div id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -65,9 +71,15 @@
       </select>
     </div>
   </div>
-  <div class="product-list">
-    <?php foreach ($products as $product) { ?>
-    <div>
+  <div class="product-list <?php echo $catType; ?>">
+    <?php foreach ($products as $product) {
+
+        $ks = 'ksLvl_' . $product['attribute'][0]['attribute'][0]['text'];
+        $subject = 'ksSubject_' . $product['attribute'][0]['attribute'][1]['text'];
+        $suitable = $product['attribute'][0]['attribute'][2]['text'];
+
+    ?>
+    <div class="ksimage <?php echo $ks; ?> <?php echo $subject; ?>">
       <?php if ($product['thumb']) { ?>
       <div class="image">
           <a href="<?php echo $product['href']; ?>">
@@ -75,6 +87,7 @@
           </a>
       </div>
       <?php } ?>
+
       <div class="name">
           <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
       </div>
@@ -83,6 +96,7 @@
       </div>
       <?php if ($product['price']) { ?>
       <div class="price">
+          <div class="suitable"><?php echo $suitable; ?></div>
         <?php if (!$product['special']) { ?>
         <strong>Starting from:</strong> <?php echo $product['price']; ?>
         <?php } else { ?>
@@ -112,7 +126,7 @@
 <script type="text/javascript"><!--
 function display(view) {
 	if (view == 'list') {
-		$('.product-grid').attr('class', 'product-list');
+		$('.product-grid').attr('class', 'product-list <?php echo $catType; ?>');
 		
 		$('.product-list > div').each(function(index, element) {
 			html  = '<div class="right">';
@@ -151,7 +165,7 @@ function display(view) {
 		
 		$.totalStorage('display', 'list'); 
 	} else {
-		$('.product-list').attr('class', 'product-grid');
+		$('.product-list').attr('class', 'product-grid <?php echo $catType; ?>');
 		
 		$('.product-grid > div').each(function(index, element) {
 			html = '';
