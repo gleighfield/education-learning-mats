@@ -511,6 +511,8 @@ label {
 #topSubMenu ul li span {
     display:block;
     padding-top:15px;
+    font-size:18px;
+    line-height:25px;
 }
 
 #topSubMenu ul li:nth-child(1) {
@@ -550,6 +552,7 @@ label {
     display:inline-block;
     padding:15px 0 0;
     font-size:18px;
+    line-height:25px;
     text-decoration:none;
     color:#fff;
 }
@@ -603,6 +606,10 @@ label {
 	color: #CCCCCC;
 	margin-bottom: 70px;
     font-family:'elm';
+}
+
+.bcnomargin {
+    margin-bottom:20px;
 }
 
 .breadcrumb a {
@@ -737,11 +744,8 @@ table.radio tr.highlight:hover td {
 	cursor: pointer;
 }
 .pagination {
-	border-top: 1px solid #EEEEEE;
-	padding-top: 8px;
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 10px;
 }
 .pagination .links {
 	float: left;
@@ -772,38 +776,31 @@ a.button, input.button {
 	cursor: pointer;
 	color: #FFFFFF;
 	line-height: 12px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	background: url('../image/button.png') repeat-x;
-	-webkit-border-radius: 7px 7px 7px 7px;
-	-moz-border-radius: 7px 7px 7px 7px;
-	-khtml-border-radius: 7px 7px 7px 7px;
-	border-radius: 7px 7px 7px 7px;
-	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
-	-moz-box-shadow: 0px 2px 2px #DDDDDD;
-	box-shadow: 0px 2px 2px #DDDDDD;
+	font-size: 16px;
+	background: url('../img/greenBtn.jpg') no-repeat top left;
+    width:131px;
+    height:35px;
+    display:inline-block;
+    text-align:center;
 }
 a.button {
 	display: inline-block;
 	text-decoration: none;
-	padding: 6px 12px 6px 12px;
+    padding-top:12px;
+}
+
+a.smallBtn {
+    font-size:12px;
+    padding-top:12px;
 }
 input.button {
 	margin: 0;
 	border: 0;
-	height: 24px;
-	padding: 0px 12px 0px 12px;
-}
-a.button:hover, input.button:hover {
-	background-position: 0px -24px;
+    font-family:'elm';
 }
 .buttons {
 	background: #FFFFFF;
-	border: 1px solid #EEEEEE;
 	overflow: auto;
-	padding: 6px;
-	margin-bottom: 20px;
 }
 .buttons .left {
 	float: left;
@@ -844,13 +841,15 @@ a.button:hover, input.button:hover {
 	background: #FFFFFF;
 }
 .tab-content {
-	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
 	padding: 10px;
 	margin-bottom: 20px;
 	z-index: 2;
 	overflow: auto;
+}
+
+.related h2 {
+    font-size:24px;
+    margin-bottom:20px;
 }
 /* box */
 .box {
@@ -903,6 +902,23 @@ a.button:hover, input.button:hover {
 .box .box-content {
 	background: #ebf5f6;
 	padding: 10px 20px 0;
+}
+
+.box .box-content ul {
+    padding:0;
+    margin:0;
+}
+.box .box-content ul li {
+    list-style-type:none;
+    margin-bottom:10px;
+}
+
+.box .box-content ul li a {
+    text-decoration:none;
+}
+
+.box .box-content ul li a:hover {
+    text-decoration:underline;
 }
 /* box products */
 .box-product {
@@ -958,10 +974,10 @@ ul.box-category, ul.box-category ul {
 	padding: 0;
 }
 ul.box-category > li:first-child {
-	padding: 0px 8px 8px 0px;
+
 }
 ul.box-category > li {
-	padding: 8px 8px 8px 0px;
+
 }
 ul.box-category > li + li {
 	border-top: 1px solid #EEEEEE;
@@ -997,7 +1013,7 @@ ul.box-filter, ul.box-filter ul {
 }
 ul.box-filter span {
 	font-weight: bold;
-	border-bottom: 1px solid #EEEEEE;	
+	border-bottom: 1px solid #EEEEEE;
 	display: block;
 	padding-bottom: 5px;
 	margin-bottom: 8px;
@@ -1010,7 +1026,6 @@ ul.box-filter > li ul {
 	padding: 10px;
 	overflow: auto;
 	margin-bottom: 20px;
-	border: 1px solid #EEEEEE;
 }
 #content .content .left {
 	float: left;
@@ -1021,6 +1036,23 @@ ul.box-filter > li ul {
 	width: 49%;
 }
 
+/*account */
+.account ul {
+    margin:0;
+}
+
+.account ul li {
+    margin-bottom:10px;
+}
+
+.account ul li a {
+    text-decoration:none;
+    font-size:16px;
+}
+
+.account ul li a:hover {
+    text-decoration:underline;
+}
 /* Front page styles */
 .frontPageMatSections {
     display:inline-block;
@@ -1329,11 +1361,9 @@ ul.box-filter > li ul {
     right:0;
 }
 .product-list .right {
-
 	margin-left: 15px;
 }
 .product-list > div + div {
-	border-top: 1px solid #EEEEEE;
 	padding-top: 16px;
 }
 .product-list .image {
@@ -1341,8 +1371,14 @@ ul.box-filter > li ul {
 	margin-right: 10px;
 }
 .product-list .image img {
-	padding: 3px;
-	border: 1px solid #E7E7E7;
+	padding: 5px 10px;
+	border: 4px solid #E7E7E7;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 .product-list .name {
 	margin-bottom: 3px;
@@ -1353,7 +1389,8 @@ ul.box-filter > li ul {
 	color: #38B0E3;
 	font-weight: bold;
 	text-decoration: none;
-    font-size:18px;
+    font-size:22px;
+    padding-left:20px;
 }
 .product-list .description {
 	line-height: 15px;
@@ -1371,6 +1408,10 @@ ul.box-filter > li ul {
 	text-align: right;
 	color: #333333;
 	font-size: 18px;
+}
+
+.product-list .price strong {
+    font-size:12px;
 }
 .product-list .price-old {
 	color: #F00;
@@ -1536,6 +1577,7 @@ ul.box-filter > li ul {
 }
 
 /* KS ALT IMAGES */
+
 .ksimage .image {
     position:relative;
 }
@@ -1552,6 +1594,10 @@ ul.box-filter > li ul {
     z-index:100;
 }
 
+.product-list .ksimage .image:before { /*Adjustment for product list view */
+    right:-15px;
+}
+
 /* Values for KS's */
 .ksLvl_1 .image:before{background:url(../img/ks1.png) no-repeat top left;}
 .ksLvl_2 .image:before{background:url(../img/ks2.png) no-repeat top left;}
@@ -1559,12 +1605,20 @@ ul.box-filter > li ul {
 .ksLvl_23 .image:before{background:url(../img/ks23.png) no-repeat top left;width:55px;height:39px;} /* KS 2 - 3 */
 
 /* Values for Subjects */
-.ksSubject_English .image a img {border-color:#55b0d7;}
+.ksSubject_English .image a img {border-color:#55b0d7 !important;}
 .ksSubject_English .name a {color:#55b0d7;}
-.ksSubject_Maths .image a img {border-color:#8fa34f;}
+.ksSubject_Maths .image a img {border-color:#8fa34f !important;}
 .ksSubject_Maths .name a {color:#8fa34f;}
-.ksSubject_French .image a img {border-color:#ee7024;}
+.ksSubject_French .image a img {border-color:#ee7024 !important;}
 .ksSubject_French .name a {color:#ee7024;}
+
+/* Values for viewing an actual project page */
+.ksSubject_English h1, .ksSubject_English h2 {color:#55b0d7;}
+.ksSubject_English .product-info .image-additional img {border-color:#55b0d7 !important;}
+.ksSubject_Maths h1, .ksSubject_Maths h2 {color:#8fa34f;}
+.ksSubject_Maths .product-info .image-additional img {border-color:#8fa34f !important;}
+.ksSubject_French h1, .ksSubject_French h2 {color:#ee7024;}
+.ksSubject_French .product-info .image-additional img {border-color:#ee7024 !important;}
 
 /* Values for Cat BGs */
 .catContainer {
@@ -1664,7 +1718,7 @@ ul.box-filter > li ul {
     text-align:left;
 }
 
-.product-info .image {
+.product-info .image a img {
 	float: left;
 	margin-bottom: 20px;
 	padding: 20px;
@@ -1677,19 +1731,23 @@ ul.box-filter > li ul {
 }
 
 .product-info .image-additional {
-	width: 260px;
+	width: 410px;
 	margin-left: -10px;
 	clear: both;
 	overflow: hidden;
+    text-align:center;
 }
 
 .product-info .image-additional img {
-	border: 1px solid #E7E7E7;
+    border:3px solid #000;
+    padding:0 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .product-info .image-additional a {
-	float: left;
-	display: block;
+	display: inline-block;
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
@@ -2206,7 +2264,6 @@ ul.box-filter > li ul {
 	display: none;
 }
 .cart-total {
-	border-top: 1px solid #DDDDDD;
 	overflow: auto;
 	padding-top: 8px;
 	margin-bottom: 15px;

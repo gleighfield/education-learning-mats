@@ -71,9 +71,9 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                     <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
                     <a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
                     <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
-                    <a href="#">Create Account</a>
+                    <a href="<?php echo $register; ?>">Create Account</a>
                 </div>
-                <a class="login"></a>
+                <a class="login" href="<?php echo $account; ?>"></a>
             </div>
          </div>
 <?php

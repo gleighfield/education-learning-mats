@@ -436,8 +436,11 @@ class ControllerProductProduct extends Controller {
 				} else {
 					$rating = false;
 				}
-							
+
+                $attributes = $this->model_catalog_product->getProductAttributes($result['product_id']);
+
 				$this->data['products'][] = array(
+                    'attributes' => $attributes,
 					'product_id' => $result['product_id'],
 					'thumb'   	 => $image,
 					'name'    	 => $result['name'],

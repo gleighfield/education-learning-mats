@@ -1,6 +1,14 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
-  <div class="breadcrumb">
+<?php echo $header; ?>
+<?php echo $column_left; ?>
+<?php echo $column_right;
+
+//What subject are we viewing?
+$subject = 'ksSubject_' . $attribute_groups[0]['attribute'][1]['text'];
+
+?>
+<div id="content" class="<?php echo $subject; ?>">
+  <?php echo $content_top; ?>
+  <div class="breadcrumb bcnomargin">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
@@ -246,9 +254,9 @@
 
 
   <?php if ($products) { ?>
-  <div id="tab-related" class="tab-content">
-    <div class="box-product">
-      <?php foreach ($products as $product) { ?>
+  <div class="related product-grid">
+      <h2>Related products</h2>
+      <?php foreach ($products as $product) {?>
       <div>
         <?php if ($product['thumb']) { ?>
         <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
@@ -256,6 +264,7 @@
         <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
         <?php if ($product['price']) { ?>
         <div class="price">
+          <strong>Starting from:</strong>
           <?php if (!$product['special']) { ?>
           <?php echo $product['price']; ?>
           <?php } else { ?>
@@ -266,10 +275,10 @@
         <?php if ($product['rating']) { ?>
         <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
-        <a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button"><?php echo $button_cart; ?></a></div>
+        <a href="<?php echo $product['href']; ?>" class="button">See more</a></div>
       <?php } ?>
     </div>
-  </div>
+
   <?php } ?>
   <?php if ($tags) { ?>
   <div class="tags"><b><?php echo $text_tags; ?></b>

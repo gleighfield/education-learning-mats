@@ -91,9 +91,7 @@
       <div class="name">
           <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
       </div>
-      <div class="description">
-          <?php echo $product['description']; ?>
-      </div>
+
       <?php if ($product['price']) { ?>
       <div class="price">
           <div class="suitable"><?php echo $suitable; ?></div>
@@ -148,7 +146,7 @@ function display(view) {
 			}
 					
 			html += '  <div class="name">' + $(element).find('.name').html() + '</div>';
-			html += '  <div class="description">' + $(element).find('.description').html() + '</div>';
+
 			
 			var rating = $(element).find('.rating').html();
 			
@@ -177,7 +175,6 @@ function display(view) {
 			}
 			
 			html += '<div class="name">' + $(element).find('.name').html() + '</div>';
-			html += '<div class="description">' + $(element).find('.description').html() + '</div>';
 			
 			var price = $(element).find('.price').html();
 			
