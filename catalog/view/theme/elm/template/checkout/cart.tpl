@@ -274,9 +274,9 @@ $('#button-quote').live('click', function() {
 				html += '  <input type="hidden" name="next" value="shipping" />';
 				
 				<?php if ($shipping_method) { ?>
-				html += '  <input type="submit" value="<?php echo $button_shipping; ?>" id="button-shipping" class="button" />';	
+				html += '  <input type="submit" value="<?php echo $button_shipping; ?>" id="button-shipping" class="button smallBtn" />';
 				<?php } else { ?>
-				html += '  <input type="submit" value="<?php echo $button_shipping; ?>" id="button-shipping" class="button" disabled="disabled" />';	
+				html += '  <input type="submit" value="<?php echo $button_shipping; ?>" id="button-shipping" class="button smallBtn" disabled="disabled" />';
 				<?php } ?>
 							
 				html += '</form>';

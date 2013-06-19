@@ -51,6 +51,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['shopping_cart'] = $this->url->link('checkout/cart');
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
         $this->data['logout'] = $this->url->link('account/logout', '', 'SSL');
+        $this->data['allproducts'] = $this->url->link('product/allproducts');
 		
 		// Daniel's robot detector
 		$status = true;

@@ -21,7 +21,7 @@ class ModelShippingWeight extends Model {
 			}
 
             if ((float)$this->cart->getTotal() >= $this->config->get('free_total')) { $status = false; }
-            
+
 			if ($status) {
 				$cost = '';
 				$weight = $this->cart->getWeight();

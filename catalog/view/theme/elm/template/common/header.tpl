@@ -55,7 +55,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
         <div id="header">
         <?php if ($logo) { ?>
             <div id="logo">
-                <a href="<?php echo $home; ?>">
+                <a href="">
                     <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" />
                 </a>
             </div>
@@ -86,18 +86,28 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
         <div id="topSubMenu">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="">Home</a>
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <a href="about">About us</a>
+                </li>
+                <li class="ourProducts"><span>Our Products</span>
+
+                    <div id="ourProductsMenu">
+                        <a href="<?php echo $allproducts; ?>">All Our Products</a>
+                        <a href="english_mats">English</a>
+                        <a href="french_mats">French</a>
+                        <a href="maths_mats">Maths</a>
+                        <a href="ks1">Key Stage 1</a>
+                        <a href="ks2">Key Stage 2</a>
+                        <a href="ks3">Key Stage 3</a>
+                    </div>
+
                 </li>
                 <li>
-                    <a href="#">Our Products</a>
+                    <a href="trade">Trade Enquiries & Schools</a>
                 </li>
-                <li>
-                    <a href="#">Trade Enquiries & Schools</a>
-                </li>
-                <li>
+                <li class="phone">
                     <span>01793 888888</span>
                 </li>
                 <li>

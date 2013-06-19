@@ -227,7 +227,17 @@ $subject = 'ksSubject_' . $attribute_groups[0]['attribute'][1]['text'];
           <div class="checkout">
             <a href="#">Checkout</a>
           </div>
-          <span class="links"><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a></span>
+
+            <div class="share"><!-- AddThis Button BEGIN -->
+                <a class="addthis_button_print"><img src="catalog/view/theme/elm/img/sharePrint.png"> Print</a>
+                <a class="addthis_button_email"><img src="catalog/view/theme/elm/img/shareEmail.png"> Email</a><br>
+                <a class="addthis_button_facebook"><img src="catalog/view/theme/elm/img/shareFacebook.png"> Share</a>
+                <a onclick="addToWishList('<?php echo $product_id; ?>');"><img src="catalog/view/theme/elm/img/shareWish.png"> <?php echo $button_wishlist; ?></a>
+                <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
+            <!-- AddThis Button END -->
+            </div>
+
+
         </div>
         <?php if ($minimum > 1) { ?>
         <div class="minimum"><?php echo $text_minimum; ?></div>

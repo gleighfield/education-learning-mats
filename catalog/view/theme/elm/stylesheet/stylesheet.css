@@ -24,7 +24,7 @@ html {
 }
 body {
 	background:url(../img/bodyBg.png) repeat;
-	color: #000000;
+	color: #414042;
 	font-family: 'elm';
 	margin: 0px;
 	padding: 30px 0;
@@ -45,7 +45,7 @@ h1, .welcome {
 	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
 }
 h2 {
-	color: #000000;
+	color: #414042;
 	font-size: 16px;
 	margin-top: 0px;
 	margin-bottom: 5px;
@@ -188,7 +188,7 @@ label {
 	margin-bottom: 2px;
 }
 #currency a b {
-	color: #000;
+	color: #414042;
 	text-decoration: none;
 }
 
@@ -305,7 +305,7 @@ label {
 	margin-bottom: 5px;
 }
 .mini-cart-info td {
-	color: #000;
+	color: #414042;
 	vertical-align: top;
 	padding: 10px 5px;
 	border-bottom: 1px solid #EEEEEE;
@@ -341,7 +341,7 @@ label {
 	margin-bottom: 5px;
 }
 .mini-cart-total td {
-	color: #000;
+	color: #414042;
 	padding: 4px;
 }
 #header #cart .checkout {
@@ -383,7 +383,7 @@ label {
 #header .links a {
 	display: inline-block;
 	padding:1px 0 0 4px;
-	color: #000;
+	color: #414042;
 	text-decoration: none;
 	font-size: 9px;
 }
@@ -459,7 +459,7 @@ label {
 	position: absolute;
 	z-index: 5;
 	padding: 5px;
-	border: 1px solid #000000;
+	border: 1px solid #414042;
 	-webkit-border-radius: 0px 0px 5px 5px;
 	-moz-border-radius: 0px 0px 5px 5px;
 	-khtml-border-radius: 0px 0px 5px 5px;
@@ -484,7 +484,7 @@ label {
 	min-width: 120px;
 }
 #menu > ul > li ul > li > a:hover {
-	background: #000000;
+	background: #414042;
 }
 #menu > ul > li > div > ul > li > a {
 	color: #FFFFFF;
@@ -521,6 +521,11 @@ label {
     padding:0 10px 0 12px;
 }
 
+#topSubMenu ul li ul li {
+    background:none;
+    display:inline-block;
+}
+
 #topSubMenu ul li span {
     display:block;
     padding-top:15px;
@@ -542,13 +547,17 @@ label {
 #topSubMenu ul li:nth-child(4) {
      background:url(../img/topSubTrade.jpg) no-repeat top left;
 }
-#topSubMenu ul li:nth-child(5) {
+#topSubMenu ul .phone {
     background:url(../img/topSubPhone.jpg) top left no-repeat;
-    color:#a96b33;
+    color:#a96b33 !important;
     font-size:18px;
     padding-left:20px !important;
     padding-right:0;
     margin-left:25px;
+}
+
+#topSubMenu ul .phone span {
+    color:#a96b33 !important;
 }
 #topSubMenu ul li:nth-child(6) {
     background:url(../img/topSubEmail.jpg) no-repeat top left;
@@ -561,13 +570,45 @@ label {
 
 }
 
-#topSubMenu ul li a {
+#topSubMenu ul li a, #topSubMenu ul li span {
     display:inline-block;
     padding:15px 0 0;
     font-size:18px;
     line-height:25px;
     text-decoration:none;
     color:#fff;
+    cursor:pointer;
+}
+
+.ourProducts {
+    position:relative;
+}
+#ourProductsMenu {
+    position:absolute;
+    top:13px;
+    left:2px;
+    display:block;
+    width:192px;
+    height:250px;
+    background:url(../img/headerMenu.png) top left no-repeat;
+    z-index:1000;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding:35px 0 0 15px;
+    display:none;
+}
+
+#ourProductsMenu a {
+    font-size:15px !important;
+    padding:0 0 3px !important;
+    margin:0 !important;
+    display:block;
+    width:100%;
+}
+
+#ourProductsMenu a:hover {
+    text-decoration:underline;
 }
 
 /*Bottom links*/
@@ -610,9 +651,22 @@ label {
     color:#4d9ba6;
 }
 
+#footer .bottomLinks li a:hover {
+    text-decoration:underline;
+}
+
 #footer p a img {
     position:relative;
     top:5px;
+}
+
+.copyRight a {
+    color:#414042;
+    text-decoration:none;
+}
+
+.copyRight a:hover {
+    text-decoration:underline;
 }
 
 .breadcrumb {
@@ -693,7 +747,7 @@ table.form tr td:first-child {
 	width: 150px;
 }
 table.form > * > * > td {
-	color: #000000;
+	color: #414042;
 }
 table.form td {
 	padding: 4px;
@@ -803,8 +857,12 @@ a.button {
 }
 
 a.smallBtn {
-    font-size:12px;
+    font-size:12px !important;
     padding-top:12px;
+}
+
+input.smallBtn {
+    font-size:12px !important;
 }
 input.button {
 	margin: 0;
@@ -845,7 +903,7 @@ input.button {
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	color: #000000;
+	color: #414042;
 	margin-right: 2px;
 	display: none;
 }
@@ -886,7 +944,7 @@ input.button {
 }
 
 .box a {
-    color:#000;
+    color:#414042;
     font-size:14px;
 }
 
@@ -947,6 +1005,11 @@ input.button {
 }
 #column-left + #column-right + #content .box-product > div {
 	width: 119px;
+}
+
+.informationContent, .informationContent a {
+    font-size:16px;
+    position:relative;
 }
 .box-product .image {
 	display: block;
@@ -1095,7 +1158,7 @@ ul.box-filter > li ul {
     width:150px;
     padding:5px 0 0;
     text-align:center;
-    background-color:#000;
+    background-color:#414042;
     -webkit-border-top-left-radius: 15px;
     -webkit-border-top-right-radius: 15px;
     -moz-border-radius-topleft: 15px;
@@ -1109,7 +1172,7 @@ ul.box-filter > li ul {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     padding:5px;
-    border:5px solid #000;
+    border:5px solid #414042;
     background-color:#fff;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -1203,15 +1266,25 @@ ul.box-filter > li ul {
 }
 
 .customerComments .box-content {
-    padding-bottom:60px;
+    padding-bottom:20px;
 
 }
 .customerComments .box-content p {
-    font-size:12px;
+    font-size:14px;
+}
+
+.customerComments .box-content p span {
+    display:block;
+    margin-top:10px;
+    text-align:right;
 }
 
 .customerComments .box-content img {
     display:block;
+}
+
+#allProductsContent {
+    font-size:15px;
 }
 
 .fpContent {
@@ -1278,7 +1351,7 @@ ul.box-filter > li ul {
 .category-list ul li {
     display:inline-block;
     font-family:'elm';
-    border-right:1px solid #000;
+    border-right:1px solid #414042;
     padding:0 5px;
 }
 
@@ -1524,7 +1597,7 @@ ul.box-filter > li ul {
 .product-grid .price {
 	display: block;
 	font-size:14px;
-	color: #333333;
+	color: #414042;
 	margin-bottom: 4px;
     font-family:'elm';
 }
@@ -1603,7 +1676,6 @@ ul.box-filter > li ul {
     right:-5px;
     width:47px;
     height:43px;
-    background-color:red;
     z-index:100;
 }
 
@@ -1695,6 +1767,21 @@ ul.box-filter > li ul {
     height:167px;
     background:url(../img/frenchRight.jpg) no-repeat top left;
 }
+
+.informationContent:before{
+    width:452px;
+    height:466px;
+    background:url(../img/aboutLeft.png) no-repeat top left;
+}
+
+.informationContent {
+    padding-bottom:110px;
+}
+.informationContent:after{
+    width:466px;
+    height:106px;
+    background:url(../img/aboutRight.png) no-repeat top left;
+}
 /* Product */
 .product-info {
 	margin-bottom: 20px;
@@ -1736,7 +1823,7 @@ ul.box-filter > li ul {
 	margin-bottom: 20px;
 	padding: 20px;
 	text-align: center;
-    border:5px solid #000;
+    border:5px solid #414042;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -1752,7 +1839,7 @@ ul.box-filter > li ul {
 }
 
 .product-info .image-additional img {
-    border:3px solid #000;
+    border:3px solid #414042;
     padding:0 5px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -1784,7 +1871,7 @@ ul.box-filter > li ul {
 
 .product-info .price {
     display:inline-block;
-	padding: 10px 5px 0 5px;
+	padding: 30px 5px 0 5px;
     font-family:'elm';
 }
 
@@ -1833,7 +1920,7 @@ ul.box-filter > li ul {
 .product-info .options {
 	padding: 0px 5px 0 5px;
 	margin-bottom: 0;
-	color: #000000;
+	color: #414042;
 }
 .product-info .addToCart {
     background:url(../img/yellowBtn.jpg) top left no-repeat;
@@ -1841,7 +1928,7 @@ ul.box-filter > li ul {
     width:131px;
     height:38px;
     text-align:center;
-    color:#000 !important;
+    color:#414042 !important;
     padding-top:9px;
     font-size:15px;
     margin-bottom:-3px;
@@ -1941,6 +2028,28 @@ ul.box-filter > li ul {
 .product-info .review .share a {
 	text-decoration: none;
 }
+
+.product-info .review .share a span {
+
+}
+
+.share {
+    margin-top:20px;
+}
+.share a {
+    text-decoration:none;
+    font-size:15px !important;
+    line-height:15px !important;
+    display:inline-block;
+    height:45px;
+    min-width:95px;
+    color:#414042;
+}
+
+.share a img {
+    position:relative;
+    top:15px;
+}
 .review-list {
 	padding: 10px;
 	overflow: auto;
@@ -1966,14 +2075,14 @@ ul.box-filter > li ul {
 	margin-bottom: 20px;
 }
 .attribute thead td, .attribute thead tr td:first-child {
-	color: #000000;
+	color: #414042;
 	font-size: 14px;
 	font-weight: bold;
 	background: #F7F7F7;
 	text-align: left;
 }
 .attribute tr td:first-child {
-	color: #000000;
+	color: #414042;
 	font-weight: bold;
 	text-align: right;
 	width: 20%;
@@ -1994,14 +2103,14 @@ ul.box-filter > li ul {
 	margin-bottom: 20px;
 }
 .compare-info thead td, .compare-info thead tr td:first-child {
-	color: #000000;
+	color: #414042;
 	font-size: 14px;
 	font-weight: bold;
 	background: #F7F7F7;
 	text-align: left;
 }
 .compare-info tr td:first-child {
-	color: #000000;
+	color: #414042;
 	font-weight: bold;
 	text-align: right;
 }
@@ -2387,7 +2496,7 @@ ul.box-filter > li ul {
 	padding: 0;
 }
 #footer h3 {
-	color: #000000;
+	color: #414042;
 	font-size: 14px;
 	margin-top: 0px;
 	margin-bottom: 8px;
@@ -2407,7 +2516,7 @@ ul.box-filter > li ul {
 }
 #footer .column a {
 	text-decoration: none;
-	color: #000;
+	color: #414042;
 }
 #footer .column a:hover {
 	text-decoration: underline;

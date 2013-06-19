@@ -6,6 +6,17 @@ $(document).ready(function() {
         pager       : false,
         auto        : true
     })
+
+    //Click or hover on our products
+
+    $('.ourProducts').hover(function () {
+        $('#ourProductsMenu').css({'opacity' : '0', 'display' : 'block'}).stop().animate({'opacity' : '1'}, 350);
+    }, function () {
+        $('#ourProductsMenu').stop().animate({'opacity' : '0'}, 200, function () {
+            $(this).css({'display' : 'none'});
+        });
+    });
+
 	/* Search */
 	$('.button-search').bind('click', function() {
 		url = $('base').attr('href') + 'index.php?route=product/search';
