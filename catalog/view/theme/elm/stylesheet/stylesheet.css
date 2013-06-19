@@ -212,6 +212,16 @@ label {
     left:6px;
 }
 
+#header #searchandbasket .logout {
+    display:inline-block;
+    background:url(../img/logout.jpg) no-repeat top left;
+    height:21px;
+    width:76px;
+    position:relative;
+    top:7px;
+    left:6px;
+}
+
 #header #cart {
     display:inline-block;
     float:left;
@@ -372,12 +382,15 @@ label {
 }
 #header .links a {
 	display: inline-block;
-	padding:0 0 0 4px;
+	padding:1px 0 0 4px;
 	color: #000;
 	text-decoration: none;
 	font-size: 9px;
 }
 
+#header .loggedInLinks a {
+    padding:1px 25px 4px;
+}
 
 .headerTitle {
     display:inline-block;

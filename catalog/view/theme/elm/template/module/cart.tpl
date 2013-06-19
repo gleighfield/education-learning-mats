@@ -1,7 +1,7 @@
 <div id="cart">
     <div class="heading">
         <h4>
-            <?php echo $heading_title; ?>: <?php echo $text_items; ?> - <a class="cartCheckout" href="<?php echo $cart; ?>"></a>
+            <?php echo $heading_title; ?>: <?php echo $text_items; ?> - <a class="cartCheckout" href="<?php echo $checkout; ?>"></a>
         </h4>
     </div>
     <div class="content">

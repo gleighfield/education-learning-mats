@@ -66,14 +66,19 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                     <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
                 </div>
                 <?php echo $cart; ?>
+                <?php if (!$logged) { ?>
                 <div class="links">
+                    <a href="<?php echo $register; ?>" style="padding:1px 25px 0;">Create a free account with Education Learning Mats today!</a>
+                </div>
+                <a class="login" href="<?php echo $account; ?>"></a>
+                <?php } else { ?>
+                <div class="links loggedInLinks">
                     <a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
                     <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
                     <a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
-                    <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
-                    <a href="<?php echo $register; ?>">Create Account</a>
                 </div>
-                <a class="login" href="<?php echo $account; ?>"></a>
+                <a class="logout" href="<?php echo $logout; ?>"></a>
+                <?php } ?>
             </div>
          </div>
 <?php
@@ -114,22 +119,6 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
     <?php foreach ($categories as $category) { ?>
                 <li>
                         <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
-      <?php if ($category['children']) { ?>
-                        <div>
-        <?php for ($i = 0; $i < count($category['children']);) { ?>
-                            <ul>
-          <?php $j = $i + ceil(count($category['children']) / $category['column']); ?>
-          <?php for (; $i < $j; $i++) { ?>
-          <?php if (isset($category['children'][$i])) { ?>
-                                <li>
-                                    <a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a>
-                                </li>
-          <?php } ?>
-          <?php } ?>
-                            </ul>
-        <?php } ?>
-                        </div>
-      <?php } ?>
                 </li>
     <?php } ?>
             </ul>
