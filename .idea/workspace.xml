@@ -40,46 +40,7 @@
     <favorites_list name="education-learning-mats" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1789" column="12" selection-start="33559" selection-end="33559" vertical-scroll-proportion="-8.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="2" selection-start="8014" selection-end="8014" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1371716794781" expanded="true" signature="5815:5829" placeholder="..." />
-                <marker date="1371716794781" expanded="true" signature="6452:6466" placeholder="..." />
-                <marker date="1371716794781" expanded="true" signature="7092:7106" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutMain.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image/data/aboutMain.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -197,20 +158,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education-learning-mats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,34 +433,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/image/data/aboutMain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1789" column="12" selection-start="33559" selection-end="33559" vertical-scroll-proportion="-8.2">
+        <state line="21" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.5675676">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="2" selection-start="8014" selection-end="8014" vertical-scroll-proportion="0.0">
+        <state line="289" column="2" selection-start="8014" selection-end="8014" vertical-scroll-proportion="0.42900762">
           <folding>
-            <marker date="1371716794781" expanded="true" signature="5815:5829" placeholder="..." />
-            <marker date="1371716794781" expanded="true" signature="6452:6466" placeholder="..." />
-            <marker date="1371716794781" expanded="true" signature="7092:7106" placeholder="..." />
+            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-13.730769">
+        <state line="1789" column="12" selection-start="33559" selection-end="33559" vertical-scroll-proportion="0.32539684">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/data/aboutMain.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
