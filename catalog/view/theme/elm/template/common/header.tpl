@@ -29,7 +29,7 @@
 <?php } else { ?>
 <meta property="og:description" content="Learning mats are all about helping children to master those tricky basics and cover a range of subjects, including English, Maths, Times Tables and basic French"/>
 <?php } ?>
-<meta property="og:image" content="<?php echo $base; ?>image/data/og_img.jpg"/>
+<meta property="og:image" content="<?php echo $base; ?>image/fbog.png"/>
 
 <?php foreach ($links as $link) { ?>
 
