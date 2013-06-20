@@ -1772,11 +1772,51 @@ ul.box-filter > li ul {
     width:452px;
     height:466px;
     background:url(../img/aboutLeft.png) no-repeat top left;
+    z-index:-1;
 }
 
 .informationContent {
+    min-height:600px !important;
     padding-bottom:110px;
+    position:relative;
+    z-index:10;
 }
+
+.informationContent h1 {
+    color:#a76b34;
+}
+
+.informationContent label {
+    width:170px;
+    display:inline-block;
+    vertical-align: top;
+    position:relative;
+    top:5px;
+}
+
+.informationContent input, .informationContent textarea {
+    font-family:'elm';
+    font-size:14px;
+    display:inline-block;
+    width:350px;
+    margin-bottom:10px;
+}
+
+.informationContent textarea {
+    margin-left:8px;
+    height:100px;
+    resize:vertical;
+}
+#contactMailSending {
+    display: none;
+}
+
+#cfError {
+    display:block;
+    color:red;
+    font-weight:bold;
+}
+
 .informationContent:after{
     width:466px;
     height:106px;

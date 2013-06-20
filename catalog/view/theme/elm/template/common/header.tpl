@@ -97,7 +97,6 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                     <a href="about">About us</a>
                 </li>
                 <li class="ourProducts"><span>Our Products</span>
-
                     <div id="ourProductsMenu">
                         <a href="<?php echo $allproducts; ?>">All Our Products</a>
                         <a href="english_mats">English</a>
@@ -107,7 +106,6 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                         <a href="ks2">Key Stage 2</a>
                         <a href="ks3">Key Stage 3</a>
                     </div>
-
                 </li>
                 <li>
                     <a href="trade">Trade Enquiries & Schools</a>

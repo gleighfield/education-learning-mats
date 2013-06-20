@@ -131,7 +131,45 @@ $(document).ready(function() {
 		$(this).parent().fadeOut('slow', function() {
 			$(this).remove();
 		});
-	});	
+	});
+
+    //Contact form click
+    $('#cfSubmit').click(function (e) {
+        e.preventDefault();
+        processContactForm();
+    });
+
+    //required field on focus
+    $('.cfRequired').focus(function () {
+        if ($(this).val() == $(this).data('default')) {
+            $(this).val("");
+        }
+    });
+
+    //required field focus out
+    $('.cfRequired').blur(function (e) {
+        var item = $(this);
+        var defaultText = $(this).data('default');
+
+        if ($(this).hasClass('email')) {
+            //Email validation
+            if (!/^[^\W][a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)*\@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,6}$/.test($(this).val())) {
+                $('#cfError').html("This doesnt appear to be a valid email address");
+                item.css({'border' : '1px solid #b21d2e'});
+                return false;
+            }
+            else {
+                $('#cfError').html("");
+            }
+        }
+
+        if (item.val() == "" || item.val() == defaultText) {
+            $(this).val(defaultText);
+            return false;
+        }
+
+        item.css({'border' : '1px solid #99bfe6'});
+    });
 });
 
 function getURLVar(key) {
@@ -227,4 +265,47 @@ function addToCompare(product_id) {
 			}	
 		}
 	});
+}
+
+//Contact Form Script
+function processContactForm() {
+    var inValid = 0;
+    $('.cfRequired').each(function () {
+        if ($(this).val() === "" || $(this).val() === $(this).data('default')) {
+            inValid ++;
+            $(this).css({'border' : '1px solid #b21d2e'});
+        }
+    });
+
+    if (inValid !== 0) {
+        $('#cfError').html("Form not sent, there are " + inValid + " error(s).");
+    }
+    else {
+        var name = $('#cfName').val();
+        var email = $('#cfeMail').val();
+        var tel = $('#cfTel').val();
+        var msg = $('#cfMsg').val();
+
+        //Message to show when transmitting data
+        var during = "<h1>Submitting your information</h1> \n\<h2>please wait...</h2>";
+
+        //Message to show when finished
+        var done   = "<h1>Thank you " + name + ", your message has been successfully sent.</h1> \n\<h2>We will reply to your email as soon as possible.</h2>";
+
+        //Change here
+        $('#contactMailEntry').stop().animate({'opacity' : '0'}, 350, function () {
+            $(this).remove();
+            $('#contactMailSending').css({'opacity' : '0', 'display' : 'block'}).html(during).stop().animate({'opacity' : 1}, 250);
+            $.ajax({
+                type: 'POST',
+                url: 'contact.php',
+                data: ({'name' : name, 'email' : email, 'tel' : tel, 'msg' : msg}),
+                success: function(data) {
+                    $('#contactMailSending').stop().animate({'opacity' : 0}, 250, function () {
+                        $(this).html(done).stop().animate({'opacity' : '1'}, 350);
+                    });
+                }
+            });
+        });
+    }
 }
