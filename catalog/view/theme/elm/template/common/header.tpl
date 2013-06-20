@@ -17,7 +17,22 @@
 } if ($icon) { ?>
 <link href="<?php echo $icon; ?>" rel="icon" />
 <?php } ?>
+
+<!-- FBOG /-->
+<meta property="og:title" content="<?php echo $title; ?>"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>"/>
+<meta property="og:site_name" content="Educational Learning Mats"/>
+<meta property="fb:admins" content="627245220"/>
+<?php if ($description) { ?>
+<meta property="og:description" content="<?php echo $description; ?>"/>
+<?php } else { ?>
+<meta property="og:description" content="Learning mats are all about helping children to master those tricky basics and cover a range of subjects, including English, Maths, Times Tables and basic French"/>
+<?php } ?>
+<meta property="og:image" content="<?php echo $base; ?>image/data/og_img.jpg"/>
+
 <?php foreach ($links as $link) { ?>
+
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/elm/stylesheet/stylesheet.css" />

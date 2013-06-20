@@ -92,7 +92,10 @@ class ControllerProductCategory extends Controller {
 		$category_info = $this->model_catalog_category->getCategory($category_id);
 	
 		if ($category_info) {
-	  		$this->document->setTitle($category_info['name']);
+            //Eg Maths | Education Learning Mats
+            $pageTitle = $category_info['name'] . ' | ' . $this->config->get('config_title');
+
+	  		$this->document->setTitle($pageTitle);
 			$this->document->setDescription($category_info['meta_description']);
 			$this->document->setKeywords($category_info['meta_keyword']);
 			$this->document->addScript('catalog/view/javascript/jquery/jquery.total-storage.min.js');

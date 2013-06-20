@@ -219,9 +219,11 @@ class ControllerProductProduct extends Controller {
 				'text'      => $product_info['name'],
 				'href'      => $this->url->link('product/product', $url . '&product_id=' . $this->request->get['product_id']),
 				'separator' => $this->language->get('text_separator')
-			);			
-			
-			$this->document->setTitle($product_info['name']);
+			);
+
+            $pageTitle = $product_info['name'] . ' - ' . $category_info['name'] . ' | '. $this->config->get('config_title');
+
+			$this->document->setTitle($pageTitle);
 			$this->document->setDescription($product_info['meta_description']);
 			$this->document->setKeywords($product_info['meta_keyword']);
 			$this->document->addLink($this->url->link('product/product', 'product_id=' . $this->request->get['product_id']), 'canonical');
