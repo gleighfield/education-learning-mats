@@ -12,6 +12,8 @@ $_['column_sort_order']	= 'Sort Order';
 $_['column_action']     = 'Action';
 
 // Entry
+$_['entry_meta_description'] = 'Meta Description:';
+$_['entry_meta_keywords'] = 'Meta Keywords:';
 $_['entry_title']       = 'Information Title:';
 $_['entry_description'] = 'Description:';
 $_['entry_store']       = 'Stores:';

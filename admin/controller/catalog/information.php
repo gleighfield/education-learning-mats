@@ -269,6 +269,11 @@ class ControllerCatalogInformation extends Controller {
     	$this->data['text_disabled'] = $this->language->get('text_disabled');
 		
 		$this->data['entry_title'] = $this->language->get('entry_title');
+
+        //Meta addition
+        $this->data['entry_meta_description'] = $this->language->get('entry_meta_description');
+        $this->data['entry_meta_keywords'] = $this->language->get('entry_meta_keywords');
+
 		$this->data['entry_description'] = $this->language->get('entry_description');
 		$this->data['entry_store'] = $this->language->get('entry_store');
 		$this->data['entry_keyword'] = $this->language->get('entry_keyword');

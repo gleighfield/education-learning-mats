@@ -33,6 +33,18 @@
                   <?php } ?></td>
               </tr>
               <tr>
+                  <td><?php echo $entry_meta_description; ?></td>
+                  <td>
+                      <textarea name="information_description[<?php echo $language['language_id']; ?>][meta_description]" cols="40" rows="5"><?php echo isset($information_description[$language['language_id']]) ? $information_description[$language['language_id']]['meta_description'] : ''; ?></textarea>
+                  </td>
+              </tr>
+              <tr>
+                  <td><?php echo $entry_meta_keywords; ?></td>
+                  <td>
+                      <textarea name="information_description[<?php echo $language['language_id']; ?>][meta_keywords]" cols="40" rows="5"><?php echo isset($information_description[$language['language_id']]) ? $information_description[$language['language_id']]['meta_keywords'] : ''; ?></textarea>
+                  </td>
+              </tr>
+              <tr>
                 <td><span class="required">*</span> <?php echo $entry_description; ?></td>
                 <td><textarea name="information_description[<?php echo $language['language_id']; ?>][description]" id="description<?php echo $language['language_id']; ?>"><?php echo isset($information_description[$language['language_id']]) ? $information_description[$language['language_id']]['description'] : ''; ?></textarea>
                   <?php if (isset($error_description[$language['language_id']])) { ?>
