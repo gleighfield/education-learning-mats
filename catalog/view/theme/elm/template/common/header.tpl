@@ -72,7 +72,8 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 <?php echo $cart; ?>
                 <?php if (!$logged) { ?>
                 <div class="links">
-                    <a href="<?php echo $register; ?>" style="padding:1px 25px 0;">Create a free account with Education Learning Mats today!</a>
+                    <a href="<?php echo $shopping_cart; ?>" style="padding:1px 90px 0 30px;"><?php echo $text_shopping_cart; ?></a>
+                    <a href="<?php echo $register; ?>">Create a free account today!</a>
                 </div>
                 <a class="login" href="<?php echo $account; ?>"></a>
                 <?php } else { ?>
@@ -112,7 +113,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                     <a href="trade">Trade Enquiries & Schools</a>
                 </li>
                 <li class="phone">
-                    <span>01793 888888</span>
+                    <span>01249 817538</span>
                 </li>
                 <li>
                     <a href="mailto:info@elmats.com">info@elmats.com</a>

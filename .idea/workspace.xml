@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371453322894" ignored="false" />
     <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371712715769" ignored="false" />
-    <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371714594863" ignored="false" />
+    <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371714844843" ignored="false" />
     <file path="/cart.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371713069714" ignored="false" />
     <file path="/footer.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371658568394" ignored="false" />
     <file path="/a.dummy" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371482828349" ignored="false" />
@@ -44,10 +44,11 @@
       <file leaf-file-name="header.tpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.24837662">
+            <state line="115" column="38" selection-start="5799" selection-end="5799" vertical-scroll-proportion="0.6038961">
               <folding>
-                <marker date="1371714663939" expanded="true" signature="2920:2962" placeholder="..." />
-                <marker date="1371714663939" expanded="false" signature="3169:3183" placeholder="..." />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1371714994665" expanded="true" signature="2920:2962" placeholder="..." />
+                <marker date="1371714994665" expanded="false" signature="3169:3183" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -489,10 +490,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.24837662">
+        <state line="115" column="38" selection-start="5799" selection-end="5799" vertical-scroll-proportion="0.6038961">
           <folding>
-            <marker date="1371714663939" expanded="true" signature="2920:2962" placeholder="..." />
-            <marker date="1371714663939" expanded="false" signature="3169:3183" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1371714994665" expanded="true" signature="2920:2962" placeholder="..." />
+            <marker date="1371714994665" expanded="false" signature="3169:3183" placeholder="..." />
           </folding>
         </state>
       </provider>
