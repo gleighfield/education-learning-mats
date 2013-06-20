@@ -126,14 +126,20 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
         <h1 class="headerTitle">Write On, Wipe Clean Learning Mats</h1>
         <div id="menu">
             <ul>
-    <?php foreach ($categories as $category) { ?>
                 <li>
-                        <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+                    <span>Foundation Stage</span>
                 </li>
-    <?php } ?>
+                <li>
+                    <a href="ks1">Key Stage 1</a>
+                </li>
+                <li>
+                    <a href="ks2">Key Stage 2</a>
+                </li>
+                <li>
+                    <a href="ks3">Key Stage 3</a>
+                </li>
             </ul>
         </div>
-
 
 <?php } else { ?>
         <div id="paperClipSpacer"></div>

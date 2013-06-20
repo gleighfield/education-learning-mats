@@ -422,7 +422,7 @@ label {
     margin-right:35px;
 }
 
-#menu > ul > li:nth-child(1) a {color:#ee7024;}
+#menu > ul > li:nth-child(1) a,  #menu > ul > li:nth-child(1) span {color:#ee7024;}
 #menu > ul > li:nth-child(2) a {color:#a76b33;}
 #menu > ul > li:nth-child(3) a {color:#55b0d7;}
 #menu > ul > li:nth-child(4) a {color:#8fa34f;}
@@ -443,7 +443,7 @@ label {
     background:none;
 }
 
-#menu > ul > li > a {
+#menu > ul > li > a, #menu > ul > li > span  {
 	font-size: 20px;
 	color: #FFF;
 	line-height: 14px;

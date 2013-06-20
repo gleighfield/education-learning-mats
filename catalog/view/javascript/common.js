@@ -8,7 +8,6 @@ $(document).ready(function() {
     })
 
     //Click or hover on our products
-
     $('.ourProducts').hover(function () {
         $('#ourProductsMenu').css({'opacity' : '0', 'display' : 'block'}).stop().animate({'opacity' : '1'}, 350);
     }, function () {
