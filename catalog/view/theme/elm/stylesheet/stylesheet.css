@@ -842,6 +842,10 @@ table.radio tr.highlight:hover td {
 	padding-top: 3px;
     font-family:'elm';
 }
+#content .login-content .content {
+    padding-left:0;
+    font-size:15px;
+}
 /* button */
 a.button, input.button {
 	cursor: pointer;

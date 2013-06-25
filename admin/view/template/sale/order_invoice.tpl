@@ -8,8 +8,16 @@
 </head>
 <body>
 <?php foreach ($orders as $order) { ?>
+<div id="top">
+    <div class="topRight">
+        <img src="https://www.educationallearningmats.co.uk/image/data/logo.jpg"/>
+        <span>
+            <?php echo $order['shipping_address']; ?>
+        </span>
+    </div>
+</div>
 <div style="page-break-after: always;">
-  <h1><?php echo $text_invoice; ?></h1>
+  <h1>Your invoice from Educational Learning Mats</h1>
   <table class="store">
     <tr>
       <td><?php echo $order['store_name']; ?><br />
