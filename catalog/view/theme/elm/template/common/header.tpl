@@ -88,7 +88,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 <?php echo $cart; ?>
                 <?php if (!$logged) { ?>
                 <div class="links">
-                    <a href="<?php echo $shopping_cart; ?>" style="padding:0 20px 0 15px;"><?php echo $text_shopping_cart; ?></a>
+                    <a href="<?php echo $shopping_cart; ?>" style="padding:0 20px 0 15px;">Your Basket</a>
                     <a href="<?php echo $register; ?>">Create a free account today!</a>
                 </div>
                 <a class="login" href="<?php echo $account; ?>"></a>
@@ -96,7 +96,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 <div class="links loggedInLinks">
                     <a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
                     <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
-                    <a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
+                    <a href="<?php echo $shopping_cart; ?>">Your Basket</a>
                 </div>
                 <a class="logout" href="<?php echo $logout; ?>"></a>
                 <?php } ?>
