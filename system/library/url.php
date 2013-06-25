@@ -15,8 +15,10 @@ class Url {
 		
 	public function link($route, $args = '', $connection = 'NONSSL') {
 		if ($connection ==  'NONSSL') {
-			$url = $this->url;
-		} else {
+            //Force SSL on all pages
+			//$url = $this->url;
+            $url = $this->ssl;
+        } else {
 			$url = $this->ssl;	
 		}
 		
