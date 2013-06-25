@@ -2,6 +2,7 @@
   <div class="box-heading"><?php echo $heading_title; ?></div>
   <div class="box-content">
     <ul class="box-category">
+	<div class="menuSpacer"></div>
       <?php foreach ($categories as $category) { ?>
       <li>
         <?php if ($category['category_id'] == $category_id) { ?>
@@ -25,5 +26,13 @@
       </li>
       <?php } ?>
     </ul>
+
+	<div class="menuSpacer"></div>
+    	<ul class="usps">
+		<li>Bright, colourful, inviting, accessible.</li>
+		<li>Hands on activities, helping children to learn those tricky basics.</li>
+		<li>A useful link between home and school.  Good for revision.</li>
+		<li>Re-usable, write on wipe clean learning mats.</li>
+    	</ul>
   </div>
 </div>

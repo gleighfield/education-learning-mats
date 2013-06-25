@@ -39,7 +39,7 @@ h1, .welcome {
     color:#55b0d7;
 	font-family: 'elm';
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 35px;
 	font-size: 32px;
 	font-weight: normal;
 	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
@@ -49,7 +49,11 @@ h2 {
 	font-size: 16px;
 	margin-top: 0px;
 	margin-bottom: 5px;
-    font-family: 'elm';
+    	font-family: 'elm';
+}
+
+h3, h4, h5 {
+	font-family:'elm';
 }
 p {
 	margin-top: 0px;
@@ -375,21 +379,21 @@ label {
 	color: #999999;
 }
 #header .links {
-    display:inline-block;
+    	display:inline-block;
 	font-size: 10px;
-    padding-top:12px;
+    	padding-top:9px;
 	padding-left: 33px;
 }
 #header .links a {
 	display: inline-block;
-	padding:1px 0 0 4px;
+	padding:2px 0 0 4px;
 	color: #414042;
 	text-decoration: none;
-	font-size: 9px;
+	font-size: 13px;
 }
 
 #header .loggedInLinks a {
-    padding:1px 25px 4px;
+    padding:2px 8px 0 15px;
 }
 
 .headerTitle {
@@ -643,7 +647,7 @@ label {
 
 #footer .bottomLinks li {
     display:inline-block;
-    padding:0 3px;
+    padding:0 2px;
 }
 
 #footer .bottomLinks li a {
@@ -853,7 +857,8 @@ a.button, input.button {
 a.button {
 	display: inline-block;
 	text-decoration: none;
-    padding-top:12px;
+    	padding-top:12px !important;
+	font-family:'elm' !important;
 }
 
 a.smallBtn {
@@ -867,7 +872,7 @@ input.smallBtn {
 input.button {
 	margin: 0;
 	border: 0;
-    font-family:'elm';
+    	font-family:'elm' !important;
 }
 .buttons {
 	background: #FFFFFF;
@@ -922,12 +927,17 @@ input.button {
     font-size:24px;
     margin-bottom:20px;
 }
+
+.related .name a {
+	font-size:19px !important;
+}
 /* box */
 .box {
     margin-top:16px;
 	margin-bottom: 20px;
     position:relative;
     font-size:16px;
+z-index:100;
 
 }
 .box .box-heading {
@@ -1010,6 +1020,7 @@ input.button {
 .informationContent, .informationContent a {
     font-size:16px;
     position:relative;
+    font-family: 'Ubuntu', sans-serif;
 }
 .box-product .image {
 	display: block;
@@ -1258,7 +1269,8 @@ ul.box-filter > li ul {
 }
 
 .customerComments {
-    margin:30px 0 30px;
+    	margin:30px 0 30px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .customerComments .box-heading {
@@ -1283,19 +1295,38 @@ ul.box-filter > li ul {
     display:block;
 }
 
-#allProductsContent {
-    font-size:15px;
+#allProductsContent, .fpContent, .informationContent, .productDescription, .category-info {
+    	font-size:14px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#allProductsContent ul, .fpContent ul, .informationContent ul, .productDescription ul, .category-info ul {
+	padding-left:20px;
+}
+
+#allProductsContent ul li, .fpContent ul li, .informationContent ul li, .productDescription ul li, .category-info ul li {
+	margin-bottom:14px;
+}
+
+#allProductsContent p, .fpContent p, .informationContent p, .productDescription p, .customerComments p, .category-info p {
+	font-size:14px;
+	line-height:18px;
+}
+
+#allProductsContent a, .fpContent a, .informationContent a, .productDescription a, .category-info a {
+	font-size:14px;
+	line-height:18px;
 }
 
 .fpContent {
     width:600px;
     display:inline-block;
     margin:15px 0 0 30px;
-    font-size:15px;
     position:relative;
     padding-top:25px;
     padding-bottom:110px;
     padding-right:100px;
+font-family: 'Ubuntu', sans-serif;
 }
 
 .fpContent:before {
@@ -1320,13 +1351,13 @@ ul.box-filter > li ul {
     height:366px;
 }
 
-.fpContent ul li, .fpContent ol li {
-    margin-bottom:10px;
+.fpContent ol li {
+    margin-bottom:20px;
 }
     /* category */
 .category-info {
 	overflow: auto;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 .category-info .image {
 	float: left;
@@ -1560,9 +1591,9 @@ ul.box-filter > li ul {
 
 .product-grid .image a img {
     background-color:#fff;
-    width:90%;
+    width:95%;
     height:auto;
-    padding:10px 20px;
+    padding:2px 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1581,7 +1612,7 @@ ul.box-filter > li ul {
 .product-grid .name a {
     font-family:'elm';
     color:#8fa34f;
-	font-size:22px;
+	font-size:19px;
     max-width:90%;
 	text-decoration: none;
 	display: block;
@@ -1662,6 +1693,35 @@ ul.box-filter > li ul {
 	background: url('../image/add.png') left center no-repeat;
 }
 
+.menuSpacer {
+	display:block;
+	height:10px;
+	width:200px;
+	background:url('../img/menuSpacer.jpg') left center no-repeat;
+	margin:0 0 15px;
+}
+/* USPS */
+.usps {
+	margin-top:20px;
+}
+
+.usps li {
+	font-size:13px;
+	color:#399ba6;
+	position:relative;
+	padding:0 0 0 10px;
+}
+
+.usps li:before {
+	content:'';
+	position:absolute;
+	top:0;
+	left:-10px;
+	display:block;
+	height:22px;
+	width:17px;
+	background:url('../img/uspTick.jpg') left center no-repeat;
+}
 /* KS ALT IMAGES */
 
 .ksimage .image {
@@ -1697,7 +1757,7 @@ ul.box-filter > li ul {
 .ksSubject_French .image a img {border-color:#ee7024 !important;}
 .ksSubject_French .name a {color:#ee7024;}
 
-/* Values for viewing an actual project page */
+/* Values for viewing an actual product page */
 .ksSubject_English h1, .ksSubject_English h2 {color:#55b0d7;}
 .ksSubject_English .product-info .image-additional img {border-color:#55b0d7 !important;}
 .ksSubject_Maths h1, .ksSubject_Maths h2 {color:#8fa34f;}
@@ -1711,6 +1771,7 @@ ul.box-filter > li ul {
     margin-bottom:30px;
     overflow:visible;
     padding-bottom:180px;
+min-height:450px;
 }
 
 .catContainer:before {
@@ -1737,23 +1798,23 @@ ul.box-filter > li ul {
     z-index:0;
 }
 
-.cat_English{
+.cat_Handwriting{
 }
 
-.cat_English:before {
+.cat_Handwriting:before {
     width:450px;
     height:380px;
     background:url(../img/englishLeft.jpg) no-repeat top left;
 }
 
-.cat_English:after {
+.cat_Handwriting:after {
     width:200px;
     height:161px;
     background:url(../img/englishRight.jpg) no-repeat top left;
 }
 
 .cat_French{
-    min-height:475px;
+    min-height:675px;
 }
 
 .cat_French:before {
@@ -1803,7 +1864,7 @@ ul.box-filter > li ul {
 }
 
 .informationContent textarea {
-    margin-left:8px;
+    margin-left:4px;
     height:100px;
     resize:vertical;
 }
@@ -1839,7 +1900,7 @@ ul.box-filter > li ul {
     display:block;
     height:142px;
     width:171px;
-    top:-70px;
+    top:-40px;
     right:0;
     background:url(../img/productOwl.png) top left no-repeat;
     z-index:-1;
@@ -1918,16 +1979,13 @@ ul.box-filter > li ul {
 .product-info .productDescription {
     display:inline-block;
     width:96%;
-    font-family:'elm';
 }
 .product-info .productDescription h2 {
     font-size:24px;
 }
 
 .product-info .productDescription p {
-    font-family:'elm' !important;
-    font-size:16px !important;
-    line-height:20px !important;
+
 }
 
 .product-info .price .diffPrices span {

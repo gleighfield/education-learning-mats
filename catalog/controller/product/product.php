@@ -221,7 +221,7 @@ class ControllerProductProduct extends Controller {
 				'separator' => $this->language->get('text_separator')
 			);
 
-            $pageTitle = $product_info['name'] . ' - ' . $category_info['name'] . ' | '. $this->config->get('config_title');
+            		$pageTitle = $product_info['name'] . ' - ' . $category_info['name'] . ' | '. $this->config->get('config_title');
 
 			$this->document->setTitle($pageTitle);
 			$this->document->setDescription($product_info['meta_description']);
