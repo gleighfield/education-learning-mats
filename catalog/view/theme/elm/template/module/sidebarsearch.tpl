@@ -14,11 +14,11 @@
       </select>
 	  </div>
 	  <div id="checkbox-subcategories">
-		<input type="checkbox" name="filter_sub_category" value="1" id="sub_category" />
+		<input type="checkbox" name="filter_sub_category" value="1" id="sub_category" checked />
 		<label for="sub_category"><?php echo $text_subsYN; ?></label>
 	  </div>
 	  <div id="checkbox-description">
-		<input type="checkbox" name="filter_description" value="1" id="description" />
+		<input type="checkbox" name="filter_description" value="1" id="description" checked />
 		<label for="description"><?php echo $text_descripYN; ?></label>
 	</div>
 	<?php } ?>
