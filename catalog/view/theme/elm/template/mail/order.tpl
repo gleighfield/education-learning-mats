@@ -6,7 +6,8 @@
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;">
 <div style="width: 680px;"><a href="<?php echo $store_url; ?>" title="<?php echo $store_name; ?>"><img src="<?php echo $logo; ?>" alt="<?php echo $store_name; ?>" style="margin-bottom: 20px; border: none;" /></a>
-  <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_greeting; ?></p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">Thank you for your order. If you have any questions, please call us, Monday - Friday 9.00am to 5.00pm on 01249 817538.</p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">The following items will be delivered in 3 to 5 workings days subject to cleared payment.</p>
   <?php if ($customer_id) { ?>
   <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_link; ?></p>
   <p style="margin-top: 0px; margin-bottom: 20px;"><a href="<?php echo $link; ?>"><?php echo $link; ?></a></p>
@@ -110,8 +111,8 @@
       <?php } ?>
     </tfoot>
   </table>
-  <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_footer; ?></p>
-  <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_powered; ?></p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">Should any problems arise whilst processing your order we will try to contact  you by email.</p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">If you have any questions, please contact Educational Learning Mats on 01249 817538 or email <a href="mailto:info@elmats.co.uk">info@elmats.co.uk.</a></p>
 </div>
 </body>
 </html>
