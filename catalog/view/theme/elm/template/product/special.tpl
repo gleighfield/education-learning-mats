@@ -39,11 +39,11 @@
     <div id="allProductsContent">
         <p>Write On, Wipe Clean Learning Mats have been designed by teachers to help reinforce key learning objectives in line with the National Curriculum. The full range is suitable for children aged from 3 to 13, covering Early Years up to Key Stage 3.</p>
         <ul>
-            <li>Designed by teachers and tested in schools</li>
-            <li>Wipe clean so can be reused many times</li>
-            <li>Available in A3 and A4 sizes, with rounded corners for extra safety</li>
-            <li>Light and portable, they fit easily in a book bag – ideal for travelling</li>
-            <li>Developed, designed and manufactured in the UK</li>
+            <li>Designed by teachers and tested in schools.</li>
+            <li>Wipe clean so can be reused many times.</li>
+            <li>Available in A3 and A4 sizes, with rounded corners for extra safety.</li>
+            <li>Light and portable, they fit easily in a book bag – ideal for travelling.</li>
+            <li>Developed, designed and manufactured in the UK.</li>
             <li>Printed on FSC-certified card using eco-friendly vegetable inks.</li>
         </ul>
     </div>

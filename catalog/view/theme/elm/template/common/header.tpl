@@ -31,6 +31,7 @@
 <?php } ?>
 <meta property="og:image" content="<?php echo $base; ?>image/fbog.png"/>
 
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <?php foreach ($links as $link) { ?>
 
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
@@ -87,7 +88,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 <?php echo $cart; ?>
                 <?php if (!$logged) { ?>
                 <div class="links">
-                    <a href="<?php echo $shopping_cart; ?>" style="padding:1px 90px 0 30px;"><?php echo $text_shopping_cart; ?></a>
+                    <a href="<?php echo $shopping_cart; ?>" style="padding:0 20px 0 15px;"><?php echo $text_shopping_cart; ?></a>
                     <a href="<?php echo $register; ?>">Create a free account today!</a>
                 </div>
                 <a class="login" href="<?php echo $account; ?>"></a>
@@ -113,8 +114,8 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                 </li>
                 <li class="ourProducts"><span>Our Products</span>
                     <div id="ourProductsMenu">
-                        <a href="<?php echo $allproducts; ?>">All Our Products</a>
-                        <a href="english_mats">English</a>
+                        <a href="all_products">All Our Products</a>
+                        <a href="handwriting_mats">Handwriting</a>
                         <a href="french_mats">French</a>
                         <a href="maths_mats">Maths</a>
                         <a href="ks1">Key Stage 1</a>
@@ -129,7 +130,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
                     <span>01249 817538</span>
                 </li>
                 <li>
-                    <a href="mailto:info@elmats.com">info@elmats.com</a>
+                    <a href="contact">info@elmats.com</a>
                 </li>
             </ul>
 

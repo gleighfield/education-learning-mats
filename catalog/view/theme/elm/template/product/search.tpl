@@ -38,6 +38,7 @@
         <?php } ?>
         <?php } ?>
       </select>
+	<br><br>
       <?php if ($sub_category) { ?>
       <input type="checkbox" name="sub_category" value="1" id="sub_category" checked="checked" />
       <?php } else { ?>
