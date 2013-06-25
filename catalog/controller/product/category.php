@@ -19,6 +19,9 @@ class ControllerProductCategory extends Controller {
 			$sort = $this->request->get['sort'];
 		} else {
 			$sort = 'p.sort_order';
+			//Custom product sort order
+			$sort = 'p2co.sort_order,p.sort_order';
+			
 		}
 
 		if (isset($this->request->get['order'])) {

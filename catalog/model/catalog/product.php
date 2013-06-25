@@ -79,8 +79,12 @@ class ModelCatalogProduct extends Model {
 		
 			if (!empty($data['filter_filter'])) {
 				$sql .= " LEFT JOIN " . DB_PREFIX . "product_filter pf ON (p2c.product_id = pf.product_id) LEFT JOIN " . DB_PREFIX . "product p ON (pf.product_id = p.product_id)";
+				//Custom product sort order
+				$sql .= " LEFT JOIN " . DB_PREFIX . "product_to_category_order p2co ON (pf.product_id = p2co.product_id AND p2c.category_id = p2co.category_id)";
 			} else {
 				$sql .= " LEFT JOIN " . DB_PREFIX . "product p ON (p2c.product_id = p.product_id)";
+				//Custom product sort order
+				$sql .= " LEFT JOIN " . DB_PREFIX . "product_to_category_order p2co ON (p.product_id = p2co.product_id AND p2c.category_id = p2co.category_id)"; 
 			}
 		} else {
 			$sql .= " FROM " . DB_PREFIX . "product p";
@@ -181,7 +185,8 @@ class ModelCatalogProduct extends Model {
 			'p.price',
 			'rating',
 			'p.sort_order',
-			'p.date_added'
+			'p.date_added',
+			'p2co.sort_order,p.sort_order,LCASE(pd.name)'
 		);	
 		
 		if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
@@ -193,7 +198,10 @@ class ModelCatalogProduct extends Model {
 				$sql .= " ORDER BY " . $data['sort'];
 			}
 		} else {
-			$sql .= " ORDER BY p.sort_order";	
+			//Custom product sort order
+			//$sql .= " ORDER BY p.sort_order";	
+			if(!empty($data['filter_category_id'])) $sql .= " ORDER BY p2co.sort_order, p.sort_order ASC, LCASE(pd.name)";
+			else $sql .= " ORDER BY p.sort_order";
 		}
 		
 		if (isset($data['order']) && ($data['order'] == 'DESC')) {
