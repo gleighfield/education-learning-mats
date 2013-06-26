@@ -1,6 +1,7 @@
 <?php echo $header;
 
     $catType = 'catContainer cat_' .$heading_title;
+    $catTitle = 'catTitle_' . $heading_title;
 
 ?>
 <?php echo $column_left; ?>
@@ -11,7 +12,7 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
+  <h1 class="<?php echo $catTitle; ?>"><?php echo $heading_title; ?></h1>
   <?php if ($thumb || $description) { ?>
   <div class="category-info">
     <?php if ($thumb) { ?>

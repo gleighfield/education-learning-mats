@@ -9,4 +9,3 @@ image/cache/*.jpg
 image/cache/data/*
 system/cache
 system/logs
-config-old.php

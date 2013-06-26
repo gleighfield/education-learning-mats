@@ -25,6 +25,7 @@ $subject = 'ksSubject_' . $attribute_groups[0]['attribute'][1]['text'];
         <?php foreach ($images as $image) { ?>
         <a href="<?php echo $image['popup']; ?>" title="<?php echo $heading_title; ?>" class="colorbox"><img src="<?php echo $image['thumb']; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
         <?php } ?>
+        <span>Click to see reverse side of mat</span>
       </div>
       <?php } ?>
     </div>
@@ -225,7 +226,7 @@ $subject = 'ksSubject_' . $attribute_groups[0]['attribute'][1]['text'];
           <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" /><br>
           <span class="addToCart" id="button-cart" class="button" />Add to basket</span>
           <div class="checkout">
-            <a href="#">Checkout</a>
+            <a href="index.php?route=checkout/cart">Your basket</a>
           </div>
 
             <div class="share"><!-- AddThis Button BEGIN -->

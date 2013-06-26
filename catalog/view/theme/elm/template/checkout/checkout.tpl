@@ -1,6 +1,12 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
 <div id="content"><?php echo $content_top; ?>
-  <h1><?php echo $heading_title; ?></h1>
+  <h1>
+      <?php echo $heading_title; ?>
+      <div class="checkoutBtn">
+          <a href="index.php?route=checkout/cart">Back to Basket</a>
+      </div>
+  </h1>
+
   <div class="checkout">
     <div id="checkout">
       <div class="checkout-heading"><?php echo $text_checkout_option; ?></div>
@@ -36,6 +42,13 @@
       <div class="checkout-content"></div>
     </div>
   </div>
+
+    <h1>
+        <div class="checkoutBtn">
+            <a href="index.php?route=checkout/cart">Back to Basket</a>
+        </div>
+        <br>
+    </h1>
   <?php echo $content_bottom; ?></div>
 <script type="text/javascript"><!--
 $('#checkout .checkout-content input[name=\'account\']').live('change', function() {

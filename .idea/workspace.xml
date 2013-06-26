@@ -5,14 +5,14 @@
     <ignored path="education-learning-mats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371453322894" ignored="false" />
-    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371716669409" ignored="false" />
-    <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371714844843" ignored="false" />
+    <file path="/stylesheet.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372239334154" ignored="false" />
+    <file path="/header.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372153112251" ignored="false" />
     <file path="/cart.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371713069714" ignored="false" />
     <file path="/footer.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371658568394" ignored="false" />
-    <file path="/a.dummy" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371482828349" ignored="false" />
-    <file path="/category.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371573026441" ignored="false" />
-    <file path="/category.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371576064620" ignored="false" />
-    <file path="/product.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371655526799" ignored="false" />
+    <file path="/a.dummy" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371719240481" ignored="false" />
+    <file path="/category.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372155098466" ignored="false" />
+    <file path="/category.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371720189344" ignored="false" />
+    <file path="/product.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372239246434" ignored="false" />
     <file path="$PROJECT_DIR$/../Duxter-Core/admin/applications_addon/other/portal_coc_kb/modules_public/resources/dark_elixir_storage.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371498186626" ignored="false" />
     <file path="/home.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371653812871" ignored="false" />
     <file path="/sidebarsearch.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371547628303" ignored="false" />
@@ -22,6 +22,13 @@
     <file path="/information.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371645062862" ignored="false" />
     <file path="/special.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371654561989" ignored="false" />
     <file path="/search.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371712831766" ignored="false" />
+    <file path="/product.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1371720472800" ignored="false" />
+    <file path="/contact.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372148471291" ignored="false" />
+    <file path="/order_invoice.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372151197130" ignored="false" />
+    <file path="/invoice.css" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372151262054" ignored="false" />
+    <file path="/cart.php" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372153433324" ignored="false" />
+    <file path="/order.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372154901467" ignored="false" />
+    <file path="/checkout.tpl" changelist="bb58e5a9-df12-407e-a34c-245486ec9d8c" time="1372239035748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,47 @@
     <favorites_list name="education-learning-mats" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1943" column="14" selection-start="36576" selection-end="36576" vertical-scroll-proportion="0.3873016">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="40" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-5.1960783">
+              <folding>
+                <marker date="1372239246335" expanded="false" signature="15895:15909" placeholder="..." />
+                <marker date="1372239246335" expanded="false" signature="16818:16836" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/checkout/checkout.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="12" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-13.076923">
+              <folding>
+                <marker date="1372239044643" expanded="false" signature="4993:5007" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="6269:6283" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="13722:13736" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="18773:18787" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="23103:23117" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="29388:29402" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="32577:32591" placeholder="..." />
+                <marker date="1372239044643" expanded="false" signature="34535:34549" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -58,22 +105,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/special.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/footer.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/search.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/checkout/cart.php" />
-        <option value="$PROJECT_DIR$/admin/controller/catalog/information.php" />
-        <option value="$PROJECT_DIR$/admin/model/catalog/information.php" />
-        <option value="$PROJECT_DIR$/admin/language/english/catalog/information.php" />
-        <option value="$PROJECT_DIR$/admin/view/template/catalog/information_form.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/information/information.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/information/information.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css" />
-        <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/home.php" />
         <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl" />
+        <option value="$PROJECT_DIR$/admin/view/stylesheet/invoice.css" />
+        <option value="$PROJECT_DIR$/admin/controller/sale/order.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/checkout/cart.php" />
+        <option value="$PROJECT_DIR$/system/library/url.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/mail/order.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/category.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/common/home.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/checkout/checkout.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -139,7 +186,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -153,11 +220,133 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education-learning-mats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,7 +374,7 @@
       <server id="325874cf-042d-41cc-9848-a9d21a768e3f">
         <serverdata>
           <mappings>
-            <mapping deploy="/www/html/store" local="$PROJECT_DIR$" />
+            <mapping deploy="/" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </server>
@@ -207,14 +396,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats" />
       <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\catalog\view\theme" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\image" />
+      <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats" />
       <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\image\data" />
       <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\catalog\view\theme\elm\img" />
-      <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats" />
       <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\catalog\language\english\product" />
-      <recent name="C:\Users\Graeme\Documents\GitHub\education-learning-mats\catalog\controller\product" />
     </key>
   </component>
   <component name="RunManager">
@@ -258,15 +448,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23995535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.76004463" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010673" sideWeight="0.76004463" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.76004463" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23995535" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -342,123 +532,109 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/search.tpl">
+    <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="14" selection-start="6096" selection-end="6096" vertical-scroll-proportion="0.68">
-          <folding />
-        </state>
+        <state line="2426" column="29" selection-start="95079" selection-end="95079" vertical-scroll-proportion="-8.862745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/crossdomain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="16" selection-start="6672" selection-end="6672" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_invoice.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="49" selection-start="846" selection-end="846" vertical-scroll-proportion="-12.423077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/checkout/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1371641750278" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1371641750278" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/module/cart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="108" selection-end="108" vertical-scroll-proportion="0.08279221">
-          <folding />
-        </state>
+        <state line="17" column="33" selection-start="784" selection-end="791" vertical-scroll-proportion="-7.1923075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="594" column="60" selection-start="21734" selection-end="21734" vertical-scroll-proportion="0.57022">
-          <folding />
-        </state>
+        <state line="170" column="24" selection-start="7207" selection-end="7207" vertical-scroll-proportion="-7.8627453" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/catalog/information.php">
+    <entry file="file://$PROJECT_DIR$/system/library/url.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="8" selection-start="8670" selection-end="8670" vertical-scroll-proportion="0.47350994">
-          <folding />
-        </state>
+        <state line="20" column="16" selection-start="462" selection-end="462" vertical-scroll-proportion="-12.423077" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/model/catalog/information.php">
+    <entry file="file://$PROJECT_DIR$/catalog/language/english/checkout/checkout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="43" selection-start="7649" selection-end="7649" vertical-scroll-proportion="0.27580371">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/english/catalog/information.php">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/mail/order.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="414" selection-end="414" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
+        <state line="115" column="6" selection-start="8896" selection-end="8896" vertical-scroll-proportion="0.7516234" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/information_form.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/model/checkout/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="98" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.28087986">
-          <folding />
-        </state>
+        <state line="240" column="41" selection-start="16879" selection-end="16879" vertical-scroll-proportion="-0.8279221" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/information/information.php">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="814" selection-end="814" vertical-scroll-proportion="-8.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/information/information.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.054054055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/slideshow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="396" selection-end="397" vertical-scroll-proportion="0.5">
+        <state line="3" column="26" selection-start="90" selection-end="99" vertical-scroll-proportion="0.027027028">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="40" selection-start="5884" selection-end="5888" vertical-scroll-proportion="0.33333334">
+        <state line="4" column="29" selection-start="144" selection-end="144" vertical-scroll-proportion="0.11038961">
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1371715135572" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371715135572" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1372153112367" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372153112367" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/data/aboutMain.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/common/home.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.5675676">
+        <state line="23" column="70" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.63474023">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="2" selection-start="8014" selection-end="8014" vertical-scroll-proportion="0.42900762">
+        <state line="27" column="40" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-5.1960783">
           <folding>
-            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371716794781" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372239246335" expanded="false" signature="15895:15909" placeholder="..." />
+            <marker date="1372239246335" expanded="false" signature="16818:16836" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/template/checkout/checkout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="12" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-13.076923">
+          <folding>
+            <marker date="1372239044643" expanded="false" signature="4993:5007" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="6269:6283" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="13722:13736" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="18773:18787" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="23103:23117" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="29388:29402" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="32577:32591" placeholder="..." />
+            <marker date="1372239044643" expanded="false" signature="34535:34549" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/elm/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1789" column="12" selection-start="33559" selection-end="33559" vertical-scroll-proportion="0.32539684">
+        <state line="1943" column="14" selection-start="36576" selection-end="36576" vertical-scroll-proportion="0.3873016">
           <folding />
         </state>
       </provider>

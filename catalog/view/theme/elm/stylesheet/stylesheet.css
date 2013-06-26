@@ -1328,9 +1328,9 @@ ul.box-filter > li ul {
     margin:15px 0 0 30px;
     position:relative;
     padding-top:25px;
-    padding-bottom:110px;
+    padding-bottom:130px;
     padding-right:100px;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .fpContent:before {
@@ -1769,13 +1769,18 @@ font-family: 'Ubuntu', sans-serif;
 .ksSubject_French h1, .ksSubject_French h2 {color:#ee7024;}
 .ksSubject_French .product-info .image-additional img {border-color:#ee7024 !important;}
 
+/*Values for Cat Titles */
+.catTitle_Handwriting {color:#55b0d7;}
+.catTitle_Maths {color:#8fa34f;}
+.catTitle_French {color:#ee7024;}
+
 /* Values for Cat BGs */
 .catContainer {
     position:relative;
     margin-bottom:30px;
     overflow:visible;
     padding-bottom:180px;
-min-height:450px;
+    min-height:450px;
 }
 
 .catContainer:before {
@@ -1936,11 +1941,18 @@ min-height:450px;
 }
 
 .product-info .image-additional {
-	width: 410px;
-	margin-left: -10px;
+	width: 390px;
+	margin-left: 15px;
 	clear: both;
 	overflow: hidden;
-    text-align:center;
+    text-align:left;
+}
+
+.product-info .image-additional span {
+    font-size:15px;
+    position:relative;
+    top:-35px;
+    left:10px;
 }
 
 .product-info .image-additional img {
@@ -2067,6 +2079,24 @@ min-height:450px;
     width:131px;
     height:38px;
     text-align:center;
+}
+
+.checkoutBtn {
+    background:url(../img/redBtn.jpg) top left no-repeat;
+    display:inline-block;
+    float:right;
+    width:131px;
+    height:38px;
+    text-align:center;
+}
+
+.checkoutBtn a {
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    position:relative;
+    top:-6px;
 }
 
 .product-info .checkout a {
