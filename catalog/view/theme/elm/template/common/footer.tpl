@@ -12,9 +12,9 @@
                 <li><a href="termsandconditions">Terms & Conditions</a></li>
             </ul>
             <div class="paymentOptions"></div>
-            <p class="right green">Designed by teachers & made in the UK. <!--Follow us
-                <a href="#"><img src="catalog/view/theme/elm/img/footerFacebook.jpg" width="18" height="18"/></a>
-                <a href="#"><img src="catalog/view/theme/elm/img/footerLinkedIn.jpg" width="18" height="18"/></a>//-->
+            <p class="right green">Designed by teachers & made in the UK. Follow us
+                <a href="http://www.facebook.com/educationallearningmats" target="_blank"><img src="catalog/view/theme/elm/img/footerFacebook.jpg" width="18" height="18"/></a>
+                <!--<a href="#"><img src="catalog/view/theme/elm/img/footerLinkedIn.jpg" width="18" height="18"/></a>//-->
             </p>
             <p class="right copyRight">&copy; Educational Learning Mats & Lucy Moore 2013. Web design by <a href="http://www.mikegarlick.com" target="_blank">MikeGarlick</a> & <a href="http://www.gelstudios.co.uk" target="_blank">GEL Studios</a></p>
         </div>
