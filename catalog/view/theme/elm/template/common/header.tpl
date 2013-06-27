@@ -12,7 +12,7 @@
 } if ($keywords) { ?>
 <meta name="keywords" content="<?php echo $keywords; ?>" />
 <?php } else { ?>
-<meta name="keywords" content="elmats, learning mat , learning mats , early learning Math, early keystage learning, keystage learning , Early Learning , Direct Teaching , Home school, Discover elmats , home teaching ideas , number mats , learning to write , loving to learn ,  early learning mats , primary school tools , primary school resources , primary classroom resources ,  show me mats,  abc write on mats , learning french mats , lets learn numbers , learning basic french , lets learn letters , lets learn , times table learning mats , writing letters mats , learning to write letters , learn top write numbers , learn times table mats , safe for kids mats , left hand alphabet , left hand numbers" />
+<meta name="keywords" content="educational learning mats, elmats, learning mat , learning mats , early learning Math, early keystage learning, keystage learning , Early Learning , Direct Teaching , Home school, Discover elmats , home teaching ideas , number mats , learning to write , loving to learn ,  early learning mats , primary school tools , primary school resources , primary classroom resources ,  show me mats,  abc write on mats , learning french mats , lets learn numbers , learning basic french , lets learn letters , lets learn , times table learning mats , writing letters mats , learning to write letters , learn top write numbers , learn times table mats , safe for kids mats , left hand alphabet , left hand numbers" />
 <?php
 } if ($icon) { ?>
 <link href="<?php echo $icon; ?>" rel="icon" />
