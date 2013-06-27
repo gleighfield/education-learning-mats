@@ -136,7 +136,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 
         </div>
 <?php
-    $homepage = "/store/";
+    $homepage = "/";
     $currentpage = $_SERVER['REQUEST_URI'];
     if($homepage==$currentpage) {
 
