@@ -1299,8 +1299,8 @@ ul.box-filter > li ul {
     display:block;
 }
 
-#allProductsContent, .fpContent, .informationContent, .productDescription, .category-info {
-    	font-size:14px;
+#allProductsContent, .fpContent, .informationContent, .productDescription, .category-info, .payment, .payment input, .payment select {
+    font-size:14px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
