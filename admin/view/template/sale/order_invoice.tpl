@@ -20,7 +20,7 @@
   <h1>Your invoice from Educational Learning Mats</h1>
   <table class="store">
     <tr>
-      <td><?php echo $order['store_name']; ?><br />
+      <td>
         <?php echo $order['store_address']; ?><br />
         <?php echo $text_telephone; ?> <?php echo $order['store_telephone']; ?><br />
         <?php if ($order['store_fax']) { ?>
