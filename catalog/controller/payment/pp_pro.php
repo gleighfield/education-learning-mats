@@ -160,8 +160,6 @@ class ControllerPaymentPPPro extends Controller {
         curl_setopt($curl, CURLOPT_POSTFIELDS, $request);
 
 		$response = curl_exec($curl);
- 		
-		curl_close($curl);
  
 		if (!$response) {
 			$this->log->write('DoDirectPayment failed: ' . curl_error($curl) . '(' . curl_errno($curl) . ')');
@@ -198,6 +196,9 @@ class ControllerPaymentPPPro extends Controller {
         }
 		
 		$this->response->setOutput(json_encode($json));
+
+        //Close after error to give error log accurate string
+        curl_close($curl);
 	}
 }
 ?>
